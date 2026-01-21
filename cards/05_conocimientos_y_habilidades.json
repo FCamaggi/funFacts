@@ -1,0 +1,515 @@
+{
+  "categoryId": "conocimientos_y_habilidades",
+  "categoryName": "Conocimientos y Habilidades",
+  "cards": [
+    {
+      "id": "CH-001",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien cocinas?"
+    },
+    {
+      "id": "CH-002",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buen/a eres explicando cosas?"
+    },
+    {
+      "id": "CH-003",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien se te da aprender rápido?"
+    },
+    {
+      "id": "CH-004",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien cantas (según tú)?"
+    },
+    {
+      "id": "CH-005",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien dibujas?"
+    },
+    {
+      "id": "CH-006",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien te orientas sin GPS?"
+    },
+    {
+      "id": "CH-007",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien negocias un descuento?"
+    },
+    {
+      "id": "CH-008",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buen/a eres recordando nombres?"
+    },
+    {
+      "id": "CH-009",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien arreglas cosas “caseras” (enchufe, mueble, etc.)?"
+    },
+    {
+      "id": "CH-010",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buen/a eres contando historias?"
+    },
+
+    {
+      "id": "CH-011",
+      "scale0to100": false,
+      "text": "¿Cuántos idiomas puedes mantener una conversación básica?"
+    },
+    {
+      "id": "CH-012",
+      "scale0to100": false,
+      "text": "¿Cuántos instrumentos musicales sabes tocar (aunque sea un poco)?"
+    },
+    {
+      "id": "CH-013",
+      "scale0to100": false,
+      "text": "¿Cuántas recetas “de memoria” te salen sin mirar nada?"
+    },
+    {
+      "id": "CH-014",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al año cambias una rueda (o ayudas a alguien)?: escribe tu número estimado"
+    },
+    {
+      "id": "CH-015",
+      "scale0to100": false,
+      "text": "¿Cuántos atajos de teclado útiles usas de verdad?"
+    },
+    {
+      "id": "CH-016",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes haces una reparación o arreglo en casa?"
+    },
+    {
+      "id": "CH-017",
+      "scale0to100": false,
+      "text": "¿Cuántos platos diferentes te quedan “muy bien” según otros?"
+    },
+    {
+      "id": "CH-018",
+      "scale0to100": false,
+      "text": "¿Cuántas piezas de ropa podrías coser/arreglar si te lo piden?"
+    },
+    {
+      "id": "CH-019",
+      "scale0to100": false,
+      "text": "¿Cuántas plantas crees que podrías mantener vivas al mismo tiempo?"
+    },
+    {
+      "id": "CH-020",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos tardas en armar un mueble tipo “de caja”?"
+    },
+
+    {
+      "id": "CH-021",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien te va con números (cuentas, porcentajes, etc.)?"
+    },
+    {
+      "id": "CH-022",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien se te da improvisar una presentación sin preparar?"
+    },
+    {
+      "id": "CH-023",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien te va en juegos de palabras?"
+    },
+    {
+      "id": "CH-024",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien te va haciendo una maleta/mochila eficiente?"
+    },
+    {
+      "id": "CH-025",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buen/a eres resolviendo problemas bajo presión?"
+    },
+    {
+      "id": "CH-026",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien haces “pequeñas charlas” con desconocidos?"
+    },
+    {
+      "id": "CH-027",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien sigues una receta al pie de la letra?"
+    },
+    {
+      "id": "CH-028",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien se te da enseñar a alguien algo que sabes?"
+    },
+    {
+      "id": "CH-029",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buen/a eres detectando mentiras en películas/series?"
+    },
+    {
+      "id": "CH-030",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buena es tu puntería (deporte, dardos, papelera)?"
+    },
+
+    {
+      "id": "CH-031",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos tardas en aprender las reglas de un juego nuevo (aprox.)?"
+    },
+    {
+      "id": "CH-032",
+      "scale0to100": false,
+      "text": "¿Cuántas contraseñas diferentes crees que recuerdas sin gestor?"
+    },
+    {
+      "id": "CH-033",
+      "scale0to100": false,
+      "text": "¿Cuántos contactos podrías llamar ahora mismo para pedirte un favor “técnico”?"
+    },
+    {
+      "id": "CH-034",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes ayudas a alguien con algo de tecnología?"
+    },
+    {
+      "id": "CH-035",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al año haces un trámite por tu cuenta (sin quejarte demasiado)?"
+    },
+    {
+      "id": "CH-036",
+      "scale0to100": false,
+      "text": "¿Cuántos trucos de cocina (cortar cebolla, emulsionar, etc.) dominas?"
+    },
+    {
+      "id": "CH-037",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos tardas en doblar una canasta de ropa limpia?"
+    },
+    {
+      "id": "CH-038",
+      "scale0to100": false,
+      "text": "¿Cuántos libros leíste completos el último año?"
+    },
+    {
+      "id": "CH-039",
+      "scale0to100": false,
+      "text": "¿Cuántas películas podrías recomendar “sin pensar” ahora mismo?"
+    },
+    {
+      "id": "CH-040",
+      "scale0to100": false,
+      "text": "¿Cuántas recetas de postre sabes hacer?"
+    },
+
+    {
+      "id": "CH-041",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien se te da el idioma inglés (o el que quieras evaluar)?"
+    },
+    {
+      "id": "CH-042",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien se te da el “sentido común” en emergencias?"
+    },
+    {
+      "id": "CH-043",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buen/a eres planificando un viaje (itinerario, tiempos)?"
+    },
+    {
+      "id": "CH-044",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien se te da el “bricolaje”/manualidades?"
+    },
+    {
+      "id": "CH-045",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buen/a eres jugando al “¿quién soy?”?"
+    },
+    {
+      "id": "CH-046",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buen/a eres improvisando un regalo?"
+    },
+    {
+      "id": "CH-047",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien te va siguiendo un mapa en papel?"
+    },
+    {
+      "id": "CH-048",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buena es tu memoria de caras?"
+    },
+    {
+      "id": "CH-049",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien te va en juegos de estrategia?"
+    },
+    {
+      "id": "CH-050",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bueno/a eres “en general” armando cosas?"
+    },
+
+    {
+      "id": "CH-051",
+      "scale0to100": false,
+      "text": "¿Cuántos tipos de café (o infusiones) sabes preparar?"
+    },
+    {
+      "id": "CH-052",
+      "scale0to100": false,
+      "text": "¿Cuántas canciones completas te sabes de memoria (letra)?: estimación"
+    },
+    {
+      "id": "CH-053",
+      "scale0to100": false,
+      "text": "¿Cuántos trucos de organización (apps, listas, métodos) probaste?"
+    },
+    {
+      "id": "CH-054",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos tardas en explicar un juego a alguien por primera vez?"
+    },
+    {
+      "id": "CH-055",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes cocinas para otras personas?"
+    },
+    {
+      "id": "CH-056",
+      "scale0to100": false,
+      "text": "¿Cuántos pasos de una receta sigues antes de decir “a ojo”?"
+    },
+    {
+      "id": "CH-057",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes haces una compra “inteligente” comparando precios?"
+    },
+    {
+      "id": "CH-058",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al año cambias algo por primera vez (de hobby, deporte, etc.)?"
+    },
+    {
+      "id": "CH-059",
+      "scale0to100": false,
+      "text": "¿Cuántos memes podrías explicar a un extraterrestre sin llorar?"
+    },
+    {
+      "id": "CH-060",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos podrías mantener una conversación solo con emojis?"
+    },
+
+    {
+      "id": "CH-061",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buen/a eres aprendiendo nombres de calles/lugares?"
+    },
+    {
+      "id": "CH-062",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien se te da armar un presupuesto y respetarlo?"
+    },
+    {
+      "id": "CH-063",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buen/a eres manteniendo una conversación interesante?"
+    },
+    {
+      "id": "CH-064",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien se te da detectar spoilers sin querer?"
+    },
+    {
+      "id": "CH-065",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien se te da hacer “tareas aburridas” sin distraerte?"
+    },
+    {
+      "id": "CH-066",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buen/a eres cocinando con lo que hay en la heladera?"
+    },
+    {
+      "id": "CH-067",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buen/a eres resolviendo acertijos?"
+    },
+    {
+      "id": "CH-068",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buen/a eres detectando patrones?"
+    },
+    {
+      "id": "CH-069",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buena es tu orientación dentro de edificios grandes?"
+    },
+    {
+      "id": "CH-070",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buen/a eres manteniendo la calma en una fila eterna?"
+    },
+
+    {
+      "id": "CH-071",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al año armas un “plan maestro” (y lo ejecutas)?"
+    },
+    {
+      "id": "CH-072",
+      "scale0to100": false,
+      "text": "¿Cuántos tipos de nudos podrías hacer ahora mismo?"
+    },
+    {
+      "id": "CH-073",
+      "scale0to100": false,
+      "text": "¿Cuántas herramientas diferentes sabes usar sin tutorial?"
+    },
+    {
+      "id": "CH-074",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes encuentras una solución “ingeniosa” a un problema mínimo?"
+    },
+    {
+      "id": "CH-075",
+      "scale0to100": false,
+      "text": "¿Cuántos juegos de mesa podrías enseñar sin leer el manual?"
+    },
+    {
+      "id": "CH-076",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes arreglas algo “con cinta” (real o metafórica)?"
+    },
+    {
+      "id": "CH-077",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al año organizas tus fotos/archivos digitales (de verdad)?"
+    },
+    {
+      "id": "CH-078",
+      "scale0to100": false,
+      "text": "¿Cuántos lugares “secretos” tienes para esconder cosas en casa?"
+    },
+    {
+      "id": "CH-079",
+      "scale0to100": false,
+      "text": "¿Cuántos trucos de limpieza rápida conoces (y usas)?"
+    },
+    {
+      "id": "CH-080",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes haces una “pequeña investigación” antes de comprar algo?"
+    },
+
+    {
+      "id": "CH-081",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buen/a eres guiando a alguien por la ciudad?"
+    },
+    {
+      "id": "CH-082",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien se te da improvisar una comida con 3 ingredientes?"
+    },
+    {
+      "id": "CH-083",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buen/a eres armando playlists para un momento?"
+    },
+    {
+      "id": "CH-084",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buen/a eres encontrando ofertas?"
+    },
+    {
+      "id": "CH-085",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buen/a eres aprendiendo una coreografía simple?"
+    },
+    {
+      "id": "CH-086",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buen/a eres preparando una mesa linda (aunque sea simple)?"
+    },
+    {
+      "id": "CH-087",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien te va leyendo el ambiente de una sala?"
+    },
+    {
+      "id": "CH-088",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buen/a eres haciendo chistes en el momento justo?"
+    },
+    {
+      "id": "CH-089",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buen/a eres resolviendo una discusión con humor?"
+    },
+    {
+      "id": "CH-090",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien te va manteniendo una promesa pequeña?"
+    },
+
+    {
+      "id": "CH-091",
+      "scale0to100": false,
+      "text": "¿Cuántos lugares nuevos te animas a probar para comer en un mes?"
+    },
+    {
+      "id": "CH-092",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos tardas en encontrar un archivo que guardaste “en algún lado”?"
+    },
+    {
+      "id": "CH-093",
+      "scale0to100": false,
+      "text": "¿Cuántos apodos tenés para la misma herramienta (destornillador = “cosito”)?"
+    },
+    {
+      "id": "CH-094",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes arreglas algo y después dices “quedó mejor de lo que pensé”?"
+    },
+    {
+      "id": "CH-095",
+      "scale0to100": false,
+      "text": "¿Cuántos temas podrías dar una mini-clase de 5 minutos ahora mismo?"
+    },
+    {
+      "id": "CH-096",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes aprendes un dato random y lo cuentas a alguien?"
+    },
+    {
+      "id": "CH-097",
+      "scale0to100": false,
+      "text": "¿Cuántos trucos “para sobrevivir en la cocina” usas (agua para que no se pegue, etc.)?"
+    },
+    {
+      "id": "CH-098",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos tardas en hacer un café/té/mate “perfecto” para ti?"
+    },
+    {
+      "id": "CH-099",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes arreglas un problema con un tutorial?"
+    },
+    {
+      "id": "CH-100",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos te tomaría preparar tu “kit de emergencia” (llaves, cargador, agua) para salir?"
+    }
+  ]
+}

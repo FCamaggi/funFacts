@@ -1,0 +1,515 @@
+{
+  "categoryId": "escala_de_gustos",
+  "categoryName": "Escala de Gustos (0-100)",
+  "cards": [
+    {
+      "id": "EG-001",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan las comidas picantes?"
+    },
+    {
+      "id": "EG-002",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto disfrutas levantarte temprano?"
+    },
+    {
+      "id": "EG-003",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta bailar?"
+    },
+    {
+      "id": "EG-004",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan los días de lluvia?"
+    },
+    {
+      "id": "EG-005",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta el café?"
+    },
+    {
+      "id": "EG-006",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta cocinar?"
+    },
+    {
+      "id": "EG-007",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan los videojuegos?"
+    },
+    {
+      "id": "EG-008",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta hablar con desconocidos?"
+    },
+    {
+      "id": "EG-009",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan los planes improvisados?"
+    },
+    {
+      "id": "EG-010",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta la pizza?"
+    },
+
+    {
+      "id": "EG-011",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan los museos?"
+    },
+    {
+      "id": "EG-012",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta el karaoke?"
+    },
+    {
+      "id": "EG-013",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan las películas de terror?"
+    },
+    {
+      "id": "EG-014",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta hacer deporte?"
+    },
+    {
+      "id": "EG-015",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan los rompecabezas?"
+    },
+    {
+      "id": "EG-016",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan los animales?"
+    },
+    {
+      "id": "EG-017",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta el chocolate?"
+    },
+    {
+      "id": "EG-018",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta viajar en avión?"
+    },
+    {
+      "id": "EG-019",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta acampar?"
+    },
+    {
+      "id": "EG-020",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta el silencio?"
+    },
+
+    {
+      "id": "EG-021",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan los juegos de mesa?"
+    },
+    {
+      "id": "EG-022",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta cantar?"
+    },
+    {
+      "id": "EG-023",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan las reuniones familiares?"
+    },
+    {
+      "id": "EG-024",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta la comida japonesa (o similar)?"
+    },
+    {
+      "id": "EG-025",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta el frío?"
+    },
+    {
+      "id": "EG-026",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta el calor?"
+    },
+    {
+      "id": "EG-027",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan las montañas?"
+    },
+    {
+      "id": "EG-028",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta la playa?"
+    },
+    {
+      "id": "EG-029",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta ir de compras?"
+    },
+    {
+      "id": "EG-030",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta arreglar cosas en casa?"
+    },
+
+    {
+      "id": "EG-031",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan las sorpresas?"
+    },
+    {
+      "id": "EG-032",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta leer?"
+    },
+    {
+      "id": "EG-033",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan los musicales?"
+    },
+    {
+      "id": "EG-034",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta hablar por teléfono?"
+    },
+    {
+      "id": "EG-035",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta el helado?"
+    },
+    {
+      "id": "EG-036",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta conducir?"
+    },
+    {
+      "id": "EG-037",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta ver series?"
+    },
+    {
+      "id": "EG-038",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan las verduras?"
+    },
+    {
+      "id": "EG-039",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta ir al cine?"
+    },
+    {
+      "id": "EG-040",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta el té/mate?"
+    },
+
+    {
+      "id": "EG-041",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan las fiestas?"
+    },
+    {
+      "id": "EG-042",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta estar solo?"
+    },
+    {
+      "id": "EG-043",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta la nieve?"
+    },
+    {
+      "id": "EG-044",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan los documentales?"
+    },
+    {
+      "id": "EG-045",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta hacer listas?"
+    },
+    {
+      "id": "EG-046",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta probar comida nueva?"
+    },
+    {
+      "id": "EG-047",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta hablar en público?"
+    },
+    {
+      "id": "EG-048",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan los deportes de equipo?"
+    },
+    {
+      "id": "EG-049",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta la pasta?"
+    },
+    {
+      "id": "EG-050",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta la fotografía?"
+    },
+
+    {
+      "id": "EG-051",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan los perros?"
+    },
+    {
+      "id": "EG-052",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan los gatos?"
+    },
+    {
+      "id": "EG-053",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan las plantas?"
+    },
+    {
+      "id": "EG-054",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta el orden?"
+    },
+    {
+      "id": "EG-055",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta la puntualidad?"
+    },
+    {
+      "id": "EG-056",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta comer a deshoras?"
+    },
+    {
+      "id": "EG-057",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta el transporte público?"
+    },
+    {
+      "id": "EG-058",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan los regalos hechos a mano?"
+    },
+    {
+      "id": "EG-059",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta el verano?"
+    },
+    {
+      "id": "EG-060",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta el invierno?"
+    },
+
+    {
+      "id": "EG-061",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan los chistes malos?"
+    },
+    {
+      "id": "EG-062",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta cocinar para otros?"
+    },
+    {
+      "id": "EG-063",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta que te cocinen?"
+    },
+    {
+      "id": "EG-064",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan los planes tranquilos en casa?"
+    },
+    {
+      "id": "EG-065",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan los planes al aire libre?"
+    },
+    {
+      "id": "EG-066",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta el arte (pintura, escultura, etc.)?"
+    },
+    {
+      "id": "EG-067",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta el ruido de la ciudad?"
+    },
+    {
+      "id": "EG-068",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta madrugar para viajar?"
+    },
+    {
+      "id": "EG-069",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta la comida callejera?"
+    },
+    {
+      "id": "EG-070",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta el pan?"
+    },
+
+    {
+      "id": "EG-071",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta hacer deporte solo?"
+    },
+    {
+      "id": "EG-072",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan los acertijos?"
+    },
+    {
+      "id": "EG-073",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta ver partidos/competencias (aunque no juegues)?"
+    },
+    {
+      "id": "EG-074",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta organizar planes?"
+    },
+    {
+      "id": "EG-075",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta que te organicen los planes?"
+    },
+    {
+      "id": "EG-076",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan las comedias románticas?"
+    },
+    {
+      "id": "EG-077",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan las películas de acción?"
+    },
+    {
+      "id": "EG-078",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan las películas animadas?"
+    },
+    {
+      "id": "EG-079",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta el queso?"
+    },
+    {
+      "id": "EG-080",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta aprender cosas nuevas?"
+    },
+
+    {
+      "id": "EG-081",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta correr?"
+    },
+    {
+      "id": "EG-082",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan los juegos competitivos?"
+    },
+    {
+      "id": "EG-083",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan los juegos cooperativos?"
+    },
+    {
+      "id": "EG-084",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta la jardinería (o cuidar plantas)?"
+    },
+    {
+      "id": "EG-085",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan las bebidas con gas?"
+    },
+    {
+      "id": "EG-086",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta la comida casera?"
+    },
+    {
+      "id": "EG-087",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta el mar?"
+    },
+    {
+      "id": "EG-088",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan los parques de atracciones?"
+    },
+    {
+      "id": "EG-089",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta el transporte en bici?"
+    },
+    {
+      "id": "EG-090",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan los juegos de palabras?"
+    },
+
+    {
+      "id": "EG-091",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta el mate/café con leche (o bebida “con algo”)?"
+    },
+    {
+      "id": "EG-092",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan los desayunos salados?"
+    },
+    {
+      "id": "EG-093",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan los desayunos dulces?"
+    },
+    {
+      "id": "EG-094",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta el cine en casa?"
+    },
+    {
+      "id": "EG-095",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta el teatro?"
+    },
+    {
+      "id": "EG-096",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta hacer manualidades?"
+    },
+    {
+      "id": "EG-097",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta cambiar de look (pelo/ropa)?"
+    },
+    {
+      "id": "EG-098",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gustan las sorpresas de cumpleaños?"
+    },
+    {
+      "id": "EG-099",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta la comida saludable?"
+    },
+    {
+      "id": "EG-100",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿cuánto te gusta repetir una peli/serie que ya viste?"
+    }
+  ]
+}

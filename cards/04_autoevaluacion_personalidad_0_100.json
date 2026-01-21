@@ -1,0 +1,515 @@
+{
+  "categoryId": "autoevaluacion_personalidad",
+  "categoryName": "Autoevaluación de Personalidad (0-100)",
+  "cards": [
+    {
+      "id": "AP-001",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan extrovertido/a eres?"
+    },
+    {
+      "id": "AP-002",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan paciente eres?"
+    },
+    {
+      "id": "AP-003",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan puntual eres?"
+    },
+    {
+      "id": "AP-004",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan ordenado/a eres?"
+    },
+    {
+      "id": "AP-005",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan competitivo/a eres?"
+    },
+    {
+      "id": "AP-006",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan valiente eres?"
+    },
+    {
+      "id": "AP-007",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan tímido/a eres?"
+    },
+    {
+      "id": "AP-008",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan espontáneo/a eres?"
+    },
+    {
+      "id": "AP-009",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan persistente eres cuando algo se complica?"
+    },
+    {
+      "id": "AP-010",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan optimista eres?"
+    },
+
+    {
+      "id": "AP-011",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan “drama” eres?"
+    },
+    {
+      "id": "AP-012",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan tranquilo/a eres bajo presión?"
+    },
+    {
+      "id": "AP-013",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan indeciso/a eres?"
+    },
+    {
+      "id": "AP-014",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan organizado/a eres con tu tiempo?"
+    },
+    {
+      "id": "AP-015",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan “perfeccionista” eres?"
+    },
+    {
+      "id": "AP-016",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buen/a mediador/a eres en conflictos?"
+    },
+    {
+      "id": "AP-017",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan fácil te ríes?"
+    },
+    {
+      "id": "AP-018",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan rápido te enojas?"
+    },
+    {
+      "id": "AP-019",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bueno/a eres guardando secretos?"
+    },
+    {
+      "id": "AP-020",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan curioso/a eres?"
+    },
+
+    {
+      "id": "AP-021",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan fácil te adaptas a cambios de plan?"
+    },
+    {
+      "id": "AP-022",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan “maniático/a” eres con la limpieza?"
+    },
+    {
+      "id": "AP-023",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan confiado/a eres con la gente?"
+    },
+    {
+      "id": "AP-024",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan desconfiado/a eres con ofertas “demasiado buenas”?"
+    },
+    {
+      "id": "AP-025",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan creativo/a eres?"
+    },
+    {
+      "id": "AP-026",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan romántico/a eres?"
+    },
+    {
+      "id": "AP-027",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan pragmático/a eres?"
+    },
+    {
+      "id": "AP-028",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan sensible eres a las críticas?"
+    },
+    {
+      "id": "AP-029",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan competitivo/a eres con amistades?"
+    },
+    {
+      "id": "AP-030",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan “lento/a” eres para arrancar el día?"
+    },
+
+    {
+      "id": "AP-031",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan sociable eres en una fiesta?"
+    },
+    {
+      "id": "AP-032",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan “procrastinador/a” eres?"
+    },
+    {
+      "id": "AP-033",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien manejas el estrés?"
+    },
+    {
+      "id": "AP-034",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buen/a oyente eres?"
+    },
+    {
+      "id": "AP-035",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan hablador/a eres?"
+    },
+    {
+      "id": "AP-036",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan confiable eres para llegar a tiempo a un plan?"
+    },
+    {
+      "id": "AP-037",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan impulsivo/a eres al comprar?"
+    },
+    {
+      "id": "AP-038",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan “complicado/a” eres para elegir comida?"
+    },
+    {
+      "id": "AP-039",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan rápido perdonas?"
+    },
+    {
+      "id": "AP-040",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan rencoroso/a eres?"
+    },
+
+    {
+      "id": "AP-041",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buena memoria crees que tienes?"
+    },
+    {
+      "id": "AP-042",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan distraído/a eres?"
+    },
+    {
+      "id": "AP-043",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan “cabeza dura” eres?"
+    },
+    {
+      "id": "AP-044",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan amable eres con desconocidos?"
+    },
+    {
+      "id": "AP-045",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan sarcástico/a eres?"
+    },
+    {
+      "id": "AP-046",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan directo/a eres al decir lo que piensas?"
+    },
+    {
+      "id": "AP-047",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan diplomático/a eres?"
+    },
+    {
+      "id": "AP-048",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien te va la multitarea?"
+    },
+    {
+      "id": "AP-049",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan “intenso/a” eres con tus hobbies?"
+    },
+    {
+      "id": "AP-050",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan fácilmente te aburres?"
+    },
+
+    {
+      "id": "AP-051",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan arriesgado/a eres al tomar decisiones?"
+    },
+    {
+      "id": "AP-052",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan “cauteloso/a” eres?"
+    },
+    {
+      "id": "AP-053",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bueno/a eres para mantener una rutina?"
+    },
+    {
+      "id": "AP-054",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan “cero vergüenza” eres para hacer el ridículo?"
+    },
+    {
+      "id": "AP-055",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan “picajoso/a” eres (te molestan fácil)?"
+    },
+    {
+      "id": "AP-056",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan competitivo/a eres con vos mismo/a?"
+    },
+    {
+      "id": "AP-057",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien te va pidiendo disculpas?"
+    },
+    {
+      "id": "AP-058",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan “tolerante” eres con el desorden ajeno?"
+    },
+    {
+      "id": "AP-059",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan aventurero/a eres con la comida?"
+    },
+    {
+      "id": "AP-060",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan fácil te entusiasmas con un plan?"
+    },
+
+    {
+      "id": "AP-061",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien te va diciendo “no”?"
+    },
+    {
+      "id": "AP-062",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan empático/a eres?"
+    },
+    {
+      "id": "AP-063",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan competitivo/a eres en juegos?"
+    },
+    {
+      "id": "AP-064",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan rápido te cansas socialmente?"
+    },
+    {
+      "id": "AP-065",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien te va hablando de tus emociones?"
+    },
+    {
+      "id": "AP-066",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan “de hacer chistes” eres en situaciones tensas?"
+    },
+    {
+      "id": "AP-067",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan competitivo/a eres en deportes?"
+    },
+    {
+      "id": "AP-068",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan “metódico/a” eres?"
+    },
+    {
+      "id": "AP-069",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan cambiante eres con tus gustos?"
+    },
+    {
+      "id": "AP-070",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan fácil te concentras?"
+    },
+
+    {
+      "id": "AP-071",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tanto te molesta que te interrumpan?"
+    },
+    {
+      "id": "AP-072",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bueno/a eres negociando?"
+    },
+    {
+      "id": "AP-073",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan “fan de las reglas” eres en juegos?"
+    },
+    {
+      "id": "AP-074",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan “caótico/a” eres en tu día a día?"
+    },
+    {
+      "id": "AP-075",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan confiable eres para guardar un secreto 24 horas?"
+    },
+    {
+      "id": "AP-076",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bueno/a eres con nombres de personas?"
+    },
+    {
+      "id": "AP-077",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bueno/a eres para pedir ayuda?"
+    },
+    {
+      "id": "AP-078",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buen/a anfitrión/a eres?"
+    },
+    {
+      "id": "AP-079",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan generoso/a eres?"
+    },
+    {
+      "id": "AP-080",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan “ansioso/a” eres antes de un evento importante?"
+    },
+
+    {
+      "id": "AP-081",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bueno/a eres manejando conflictos en grupo?"
+    },
+    {
+      "id": "AP-082",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan rápido te recuperas de un mal día?"
+    },
+    {
+      "id": "AP-083",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan “sentimental” eres con recuerdos/objetos?"
+    },
+    {
+      "id": "AP-084",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan competitivo/a te pones si vas perdiendo?"
+    },
+    {
+      "id": "AP-085",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buena vibra llevas a un grupo?"
+    },
+    {
+      "id": "AP-086",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan “compinche” eres para planes tranquilos?"
+    },
+    {
+      "id": "AP-087",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan rápido te estresas si algo no sale perfecto?"
+    },
+    {
+      "id": "AP-088",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan flexible eres con las opiniones ajenas?"
+    },
+    {
+      "id": "AP-089",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan “paranoico/a” eres con perder cosas?"
+    },
+    {
+      "id": "AP-090",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien te va escuchando críticas constructivas?"
+    },
+
+    {
+      "id": "AP-091",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buen/a compañero/a de viaje eres?"
+    },
+    {
+      "id": "AP-092",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan “planificador/a” eres?"
+    },
+    {
+      "id": "AP-093",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan “modo zen” estás en una semana normal?"
+    },
+    {
+      "id": "AP-094",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que cuentes un chisme (inofensivo)?"
+    },
+    {
+      "id": "AP-095",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan “necio/a” eres cuando crees tener razón?"
+    },
+    {
+      "id": "AP-096",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan fácil te ilusionas con una idea nueva?"
+    },
+    {
+      "id": "AP-097",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien te va improvisando?"
+    },
+    {
+      "id": "AP-098",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buen/a consejero/a eres?"
+    },
+    {
+      "id": "AP-099",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan “modo ahorro” eres con tu energía social?"
+    },
+    {
+      "id": "AP-100",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan calmado/a te sientes ahora mismo?"
+    }
+  ]
+}

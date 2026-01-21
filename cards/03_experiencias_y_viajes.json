@@ -1,0 +1,515 @@
+{
+  "categoryId": "experiencias_y_viajes",
+  "categoryName": "Experiencias y Viajes",
+  "cards": [
+    {
+      "id": "EV-001",
+      "scale0to100": false,
+      "text": "¿Cuántos países has visitado?"
+    },
+    {
+      "id": "EV-002",
+      "scale0to100": false,
+      "text": "¿Cuántas ciudades distintas has visitado?"
+    },
+    {
+      "id": "EV-003",
+      "scale0to100": false,
+      "text": "¿Cuántas veces has volado en avión?"
+    },
+    {
+      "id": "EV-004",
+      "scale0to100": false,
+      "text": "¿Cuántas noches has pasado fuera de casa por viaje en el último año?"
+    },
+    {
+      "id": "EV-005",
+      "scale0to100": false,
+      "text": "¿Cuántos conciertos has visto en vivo?"
+    },
+    {
+      "id": "EV-006",
+      "scale0to100": false,
+      "text": "¿Cuántos festivales (de música, comida, cultura) has visitado?"
+    },
+    {
+      "id": "EV-007",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te perdiste en una ciudad y lo consideras “parte del plan”?"
+    },
+    {
+      "id": "EV-008",
+      "scale0to100": false,
+      "text": "¿Cuántas veces has acampado (carpa, camper o similar)?"
+    },
+    {
+      "id": "EV-009",
+      "scale0to100": false,
+      "text": "¿Cuántos museos visitaste en el último año?"
+    },
+    {
+      "id": "EV-010",
+      "scale0to100": false,
+      "text": "¿Cuántos kilómetros (aprox.) hiciste en tu viaje más largo?"
+    },
+
+    {
+      "id": "EV-011",
+      "scale0to100": false,
+      "text": "¿Cuántas veces has viajado solo/a?"
+    },
+    {
+      "id": "EV-012",
+      "scale0to100": false,
+      "text": "¿Cuántas veces has perdido un tren/bus/avión (o lo rozaste)?"
+    },
+    {
+      "id": "EV-013",
+      "scale0to100": false,
+      "text": "¿Cuántas veces dormiste en un lugar “raro” (aeropuerto, sillón, auto, etc.)?"
+    },
+    {
+      "id": "EV-014",
+      "scale0to100": false,
+      "text": "¿Cuántos parques nacionales o reservas naturales visitaste?"
+    },
+    {
+      "id": "EV-015",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te sacaste una foto frente a un “lugar icónico”?"
+    },
+    {
+      "id": "EV-016",
+      "scale0to100": false,
+      "text": "¿Cuántos idiomas escuchaste en un mismo día durante un viaje?"
+    },
+    {
+      "id": "EV-017",
+      "scale0to100": false,
+      "text": "¿Cuántas comidas típicas probaste en tu último viaje?"
+    },
+    {
+      "id": "EV-018",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te subiste a un teleférico o funicular?"
+    },
+    {
+      "id": "EV-019",
+      "scale0to100": false,
+      "text": "¿Cuántas veces hiciste una excursión guiada?"
+    },
+    {
+      "id": "EV-020",
+      "scale0to100": false,
+      "text": "¿Cuántas veces viajaste con una valija/mochila tan llena que no cerraba?"
+    },
+
+    {
+      "id": "EV-021",
+      "scale0to100": false,
+      "text": "¿Cuántos días seguidos fue tu viaje más largo?"
+    },
+    {
+      "id": "EV-022",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te bañaste en el mar en un viaje?"
+    },
+    {
+      "id": "EV-023",
+      "scale0to100": false,
+      "text": "¿Cuántas veces hiciste senderismo/trekking?"
+    },
+    {
+      "id": "EV-024",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te tocó cambiar de plan por el clima?"
+    },
+    {
+      "id": "EV-025",
+      "scale0to100": false,
+      "text": "¿Cuántas veces conociste a alguien en un viaje y terminaste compartiendo plan?"
+    },
+    {
+      "id": "EV-026",
+      "scale0to100": false,
+      "text": "¿Cuántas veces fuiste a un estadio o partido en otra ciudad?"
+    },
+    {
+      "id": "EV-027",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te alojaste en casa de alguien (amigo/familia) durante un viaje?"
+    },
+    {
+      "id": "EV-028",
+      "scale0to100": false,
+      "text": "¿Cuántos souvenirs inútiles pero adorables compraste en tu vida?"
+    },
+    {
+      "id": "EV-029",
+      "scale0to100": false,
+      "text": "¿Cuántas veces repetiste destino porque te encantó?"
+    },
+    {
+      "id": "EV-030",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te tocó negociar con un mapa sin señal?"
+    },
+
+    {
+      "id": "EV-031",
+      "scale0to100": false,
+      "text": "¿Cuántas veces visitaste una capital?"
+    },
+    {
+      "id": "EV-032",
+      "scale0to100": false,
+      "text": "¿Cuántas veces subiste a una montaña/cerro alto (según tu definición)?"
+    },
+    {
+      "id": "EV-033",
+      "scale0to100": false,
+      "text": "¿Cuántos husos horarios te separaron de casa en tu viaje más lejano?"
+    },
+    {
+      "id": "EV-034",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te comiste algo “rarísimo” porque era típico?"
+    },
+    {
+      "id": "EV-035",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te tocó hacer fila más de 30 minutos por una atracción?"
+    },
+    {
+      "id": "EV-036",
+      "scale0to100": false,
+      "text": "¿Cuántas veces fuiste a un carnaval/fiesta popular?"
+    },
+    {
+      "id": "EV-037",
+      "scale0to100": false,
+      "text": "¿Cuántas veces viajaste en un tren nocturno?"
+    },
+    {
+      "id": "EV-038",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te dio “síndrome del turista”: mil fotos, cero descanso?"
+    },
+    {
+      "id": "EV-039",
+      "scale0to100": false,
+      "text": "¿Cuántas veces visitaste un zoológico/acuarium/santuario?"
+    },
+    {
+      "id": "EV-040",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te sorprendió un precio y pensaste “esto en mi país…”?"
+    },
+
+    {
+      "id": "EV-041",
+      "scale0to100": false,
+      "text": "¿Cuántas veces estuviste en una playa que parecía “de postal”?"
+    },
+    {
+      "id": "EV-042",
+      "scale0to100": false,
+      "text": "¿Cuántas veces hiciste un picnic en un viaje?"
+    },
+    {
+      "id": "EV-043",
+      "scale0to100": false,
+      "text": "¿Cuántas veces viajaste por trabajo/estudios?"
+    },
+    {
+      "id": "EV-044",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te hospedaste en un lugar con desayuno incluido (y lo aprovechaste)?"
+    },
+    {
+      "id": "EV-045",
+      "scale0to100": false,
+      "text": "¿Cuántas veces visitaste un sitio histórico (ruinas, castillo, fuerte, etc.)?"
+    },
+    {
+      "id": "EV-046",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te tocó un compañero de viaje “difícil” (incluyéndote)?"
+    },
+    {
+      "id": "EV-047",
+      "scale0to100": false,
+      "text": "¿Cuántas veces viajaste con equipaje de mano solamente?"
+    },
+    {
+      "id": "EV-048",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te sacaste una foto con un animal (seguro y permitido)?"
+    },
+    {
+      "id": "EV-049",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te enamoraste de una comida en viaje y la buscaste al volver?"
+    },
+    {
+      "id": "EV-050",
+      "scale0to100": false,
+      "text": "¿Cuántas veces hiciste un “viaje relámpago” de 24 horas o menos?"
+    },
+
+    {
+      "id": "EV-051",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te tocó dormir con tapones de oídos por ruido?"
+    },
+    {
+      "id": "EV-052",
+      "scale0to100": false,
+      "text": "¿Cuántas veces viste un amanecer fuera de casa por viaje?"
+    },
+    {
+      "id": "EV-053",
+      "scale0to100": false,
+      "text": "¿Cuántas veces viste un atardecer “wow” en un viaje?"
+    },
+    {
+      "id": "EV-054",
+      "scale0to100": false,
+      "text": "¿Cuántas veces viajaste en grupo grande (6+ personas)?"
+    },
+    {
+      "id": "EV-055",
+      "scale0to100": false,
+      "text": "¿Cuántas veces hiciste un tour gastronómico (formal o improvisado)?"
+    },
+    {
+      "id": "EV-056",
+      "scale0to100": false,
+      "text": "¿Cuántas veces fuiste a un mercado local en un viaje?"
+    },
+    {
+      "id": "EV-057",
+      "scale0to100": false,
+      "text": "¿Cuántos monumentos/faros/torres subiste (con escaleras, claro)?"
+    },
+    {
+      "id": "EV-058",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te sacaste una foto “saltando” (o hiciste el intento)?"
+    },
+    {
+      "id": "EV-059",
+      "scale0to100": false,
+      "text": "¿Cuántas veces viajaste en auto más de 5 horas seguidas?"
+    },
+    {
+      "id": "EV-060",
+      "scale0to100": false,
+      "text": "¿Cuántas veces terminaste comiendo en un lugar elegido al azar?"
+    },
+
+    {
+      "id": "EV-061",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te tocó explicar tu pedido señalando el menú?"
+    },
+    {
+      "id": "EV-062",
+      "scale0to100": false,
+      "text": "¿Cuántas veces cambiaste dinero en una casa de cambio (o app) en un viaje?"
+    },
+    {
+      "id": "EV-063",
+      "scale0to100": false,
+      "text": "¿Cuántas veces fuiste a un evento deportivo en vivo?"
+    },
+    {
+      "id": "EV-064",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te quedaste sin batería en el momento menos oportuno viajando?"
+    },
+    {
+      "id": "EV-065",
+      "scale0to100": false,
+      "text": "¿Cuántas veces pagaste algo con monedas raras que no sabías usar?"
+    },
+    {
+      "id": "EV-066",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te tocó aprender una palabra clave para sobrevivir (“gracias”, “agua”)?"
+    },
+    {
+      "id": "EV-067",
+      "scale0to100": false,
+      "text": "¿Cuántas veces fuiste a un mirador (oficial o improvisado)?"
+    },
+    {
+      "id": "EV-068",
+      "scale0to100": false,
+      "text": "¿Cuántas veces hiciste un viaje por un cumpleaños/celebración?"
+    },
+    {
+      "id": "EV-069",
+      "scale0to100": false,
+      "text": "¿Cuántos aeropuertos/terminales diferentes conoces?"
+    },
+    {
+      "id": "EV-070",
+      "scale0to100": false,
+      "text": "¿Cuántas veces volviste de un viaje pensando “necesito vacaciones del viaje”?"
+    },
+
+    {
+      "id": "EV-071",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te tocó viajar en un asiento incómodo y sobreviviste?"
+    },
+    {
+      "id": "EV-072",
+      "scale0to100": false,
+      "text": "¿Cuántas veces hiciste una caminata turística de más de 15.000 pasos?"
+    },
+    {
+      "id": "EV-073",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te sacaste una foto con una estatua haciendo lo mismo que la estatua?"
+    },
+    {
+      "id": "EV-074",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te tocó un guía que hablaba rapidísimo?"
+    },
+    {
+      "id": "EV-075",
+      "scale0to100": false,
+      "text": "¿Cuántas veces viajaste a un lugar por recomendación de alguien de esta mesa?"
+    },
+    {
+      "id": "EV-076",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te quedaste en un hostel/albergue?"
+    },
+    {
+      "id": "EV-077",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te perdiste aunque tenías GPS?"
+    },
+    {
+      "id": "EV-078",
+      "scale0to100": false,
+      "text": "¿Cuántas veces cambiaste tu itinerario por una recomendación local?"
+    },
+    {
+      "id": "EV-079",
+      "scale0to100": false,
+      "text": "¿Cuántas veces fuiste a un show/cultura local (danza, música, teatro) en viaje?"
+    },
+    {
+      "id": "EV-080",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te subiste a un barco/ferry en un viaje?"
+    },
+
+    {
+      "id": "EV-081",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te sacaste una foto “con el plato” antes de comer en viaje?"
+    },
+    {
+      "id": "EV-082",
+      "scale0to100": false,
+      "text": "¿Cuántas veces estuviste en un lugar tan tranquilo que te daba culpa hablar fuerte?"
+    },
+    {
+      "id": "EV-083",
+      "scale0to100": false,
+      "text": "¿Cuántas veces fuiste a un parque temático?"
+    },
+    {
+      "id": "EV-084",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te tocó una habitación con una vista espectacular?"
+    },
+    {
+      "id": "EV-085",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te tocó una habitación con una vista… nada espectacular?"
+    },
+    {
+      "id": "EV-086",
+      "scale0to100": false,
+      "text": "¿Cuántas veces hiciste un viaje por carretera (“road trip”)?"
+    },
+    {
+      "id": "EV-087",
+      "scale0to100": false,
+      "text": "¿Cuántas veces volviste a casa con imanes para la heladera/nevera?"
+    },
+    {
+      "id": "EV-088",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te dio miedo perder el pasaporte/documento?"
+    },
+    {
+      "id": "EV-089",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te tocó hacer una escala larguísima?"
+    },
+    {
+      "id": "EV-090",
+      "scale0to100": false,
+      "text": "¿Cuántas veces encontraste un lugar increíble por pura casualidad?"
+    },
+
+    {
+      "id": "EV-091",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te tocó explicar de dónde sos y la gente dijo “ah, sí, conozco”?"
+    },
+    {
+      "id": "EV-092",
+      "scale0to100": false,
+      "text": "¿Cuántas veces hiciste una excursión a una cascada?"
+    },
+    {
+      "id": "EV-093",
+      "scale0to100": false,
+      "text": "¿Cuántas veces dormiste en un tren/bus y te despertaste desorientado/a?"
+    },
+    {
+      "id": "EV-094",
+      "scale0to100": false,
+      "text": "¿Cuántas veces llevaste un “souvenir” para alguien y te lo quedaste?"
+    },
+    {
+      "id": "EV-095",
+      "scale0to100": false,
+      "text": "¿Cuántas veces viajaste sin planificar casi nada?"
+    },
+    {
+      "id": "EV-096",
+      "scale0to100": false,
+      "text": "¿Cuántas veces hiciste una reserva y después pensaste “¿qué reservé”?"
+    },
+    {
+      "id": "EV-097",
+      "scale0to100": false,
+      "text": "¿Cuántas veces cambiaste de idioma (o lo intentaste) en una misma conversación viajando?"
+    },
+    {
+      "id": "EV-098",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te tocaron vacaciones con lluvia varios días seguidos?"
+    },
+    {
+      "id": "EV-099",
+      "scale0to100": false,
+      "text": "¿Cuántas veces te sacaste una foto de “pies en la arena”?"
+    },
+    {
+      "id": "EV-100",
+      "scale0to100": false,
+      "text": "¿Cuántas veces volviste de viaje con la sensación de haber comido “demasiado bien”?"
+    }
+  ]
+}

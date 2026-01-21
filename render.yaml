@@ -1,0 +1,8 @@
+# Render Configuration
+# Este archivo le dice a Render cómo construir el backend
+
+build:
+  - cd backend && npm install
+
+start:
+  - cd backend && npm start

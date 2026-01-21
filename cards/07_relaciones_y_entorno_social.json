@@ -1,0 +1,515 @@
+{
+  "categoryId": "relaciones_y_entorno_social",
+  "categoryName": "Relaciones y Entorno Social",
+  "cards": [
+    {
+      "id": "RS-001",
+      "scale0to100": false,
+      "text": "¿Cuántas personas podrías llamar ahora mismo para hablar 10 minutos?"
+    },
+    {
+      "id": "RS-002",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana sales con alguien (amigos/familia/pareja)?"
+    },
+    {
+      "id": "RS-003",
+      "scale0to100": false,
+      "text": "¿Cuántos grupos de chat tienes activos (donde se habla esta semana)?"
+    },
+    {
+      "id": "RS-004",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes llamas por teléfono a alguien (no audio de chat)?"
+    },
+    {
+      "id": "RS-005",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana comes con otras personas?"
+    },
+    {
+      "id": "RS-006",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes haces un plan “spontáneo” con alguien?"
+    },
+    {
+      "id": "RS-007",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana ves a tu mejor amigo/a (o equivalente)?"
+    },
+    {
+      "id": "RS-008",
+      "scale0to100": false,
+      "text": "¿Cuántos cumpleaños recuerdas sin que te avise una app?"
+    },
+    {
+      "id": "RS-009",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes mandas un mensaje solo para “¿cómo estás?”?"
+    },
+    {
+      "id": "RS-010",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al año vas a una boda/fiesta grande (estimación)?"
+    },
+
+    {
+      "id": "RS-011",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan sociable eres en una reunión?"
+    },
+    {
+      "id": "RS-012",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan fácil haces amigos?"
+    },
+    {
+      "id": "RS-013",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buen/a eres para escuchar?"
+    },
+    {
+      "id": "RS-014",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que llegues temprano a un plan?"
+    },
+    {
+      "id": "RS-015",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan fan eres de conocer gente nueva?"
+    },
+    {
+      "id": "RS-016",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan cómodo/a te sientes en silencio con alguien?"
+    },
+    {
+      "id": "RS-017",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que seas quien organiza el plan?"
+    },
+    {
+      "id": "RS-018",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que canceles un plan a último momento?"
+    },
+    {
+      "id": "RS-019",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien te va resolviendo conflictos sin pelear?"
+    },
+    {
+      "id": "RS-020",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que hables con el vecino/a?"
+    },
+
+    {
+      "id": "RS-021",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos tardas en responder un mensaje de alguien cercano (promedio)?"
+    },
+    {
+      "id": "RS-022",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes dices “tenemos que vernos” y se concreta?"
+    },
+    {
+      "id": "RS-023",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes haces un favor a alguien (cualquier cosa)?"
+    },
+    {
+      "id": "RS-024",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes pides un favor?"
+    },
+    {
+      "id": "RS-025",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes ayudas a alguien a mudarse (o a cargar algo)?"
+    },
+    {
+      "id": "RS-026",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te invitan a un plan y dices que no?"
+    },
+    {
+      "id": "RS-027",
+      "scale0to100": false,
+      "text": "¿Cuántas personas consideras “amigos cercanos” ahora mismo?"
+    },
+    {
+      "id": "RS-028",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al año haces un brindis/discurso (aunque sea mini)?"
+    },
+    {
+      "id": "RS-029",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes haces un plan con familia?"
+    },
+    {
+      "id": "RS-030",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana haces videollamada?"
+    },
+
+    {
+      "id": "RS-031",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que recuerdes detalles de lo que te cuentan?"
+    },
+    {
+      "id": "RS-032",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan fácil dices “perdón”?"
+    },
+    {
+      "id": "RS-033",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que envíes memes a tus amigos?"
+    },
+    {
+      "id": "RS-034",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan cómodo/a estás en un grupo grande (8+)?"
+    },
+    {
+      "id": "RS-035",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que seas el/la “terapeuta” del grupo?"
+    },
+    {
+      "id": "RS-036",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que propongas un brindis?"
+    },
+    {
+      "id": "RS-037",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te acuerdes de un chiste y lo repitas?"
+    },
+    {
+      "id": "RS-038",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que respondas con un sticker?"
+    },
+    {
+      "id": "RS-039",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te guste ser anfitrión/a?"
+    },
+    {
+      "id": "RS-040",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te quedes hasta el final de una fiesta?"
+    },
+
+    {
+      "id": "RS-041",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana compartes una comida con alguien (en casa o fuera)?"
+    },
+    {
+      "id": "RS-042",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te encuentras con alguien por casualidad?"
+    },
+    {
+      "id": "RS-043",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes vas a una reunión/cena/previa?"
+    },
+    {
+      "id": "RS-044",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes presentas a dos personas que no se conocían?"
+    },
+    {
+      "id": "RS-045",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos tardas en decidir qué regalo comprar a alguien?"
+    },
+    {
+      "id": "RS-046",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al año te acuerdas tarde de un cumpleaños?"
+    },
+    {
+      "id": "RS-047",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes dices “hoy no tengo energía social”?"
+    },
+    {
+      "id": "RS-048",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes haces un plan de café/merienda?"
+    },
+    {
+      "id": "RS-049",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes juegas a algo con otras personas (mesa, online, deporte)?"
+    },
+    {
+      "id": "RS-050",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes escuchas la frase “tenés que venir”?"
+    },
+
+    {
+      "id": "RS-051",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que seas quien manda el primer mensaje?"
+    },
+    {
+      "id": "RS-052",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que recuerdes un dato random de un amigo?"
+    },
+    {
+      "id": "RS-053",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que hagas amigos en un viaje?"
+    },
+    {
+      "id": "RS-054",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que hagas un cumplido espontáneo?"
+    },
+    {
+      "id": "RS-055",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que pidas consejo?"
+    },
+    {
+      "id": "RS-056",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que des consejo (aunque no te lo pidan)?"
+    },
+    {
+      "id": "RS-057",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que recuerdes el nombre de alguien nuevo?"
+    },
+    {
+      "id": "RS-058",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te guste el “small talk”?"
+    },
+    {
+      "id": "RS-059",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te acerques a saludar primero?"
+    },
+    {
+      "id": "RS-060",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te moleste que te claven el visto?"
+    },
+
+    {
+      "id": "RS-061",
+      "scale0to100": false,
+      "text": "¿Cuántas personas en esta mesa conociste por primera vez hace menos de 2 años?"
+    },
+    {
+      "id": "RS-062",
+      "scale0to100": false,
+      "text": "¿Cuántos amigos tienes que viven en otra ciudad/país?"
+    },
+    {
+      "id": "RS-063",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes haces una llamada “larga” (20+ min)?"
+    },
+    {
+      "id": "RS-064",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana mandas audios?"
+    },
+    {
+      "id": "RS-065",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te invitan a un grupo nuevo?"
+    },
+    {
+      "id": "RS-066",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te piden que “opines” sobre un drama ajeno?"
+    },
+    {
+      "id": "RS-067",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te sientes el/la “adulto responsable” del grupo?"
+    },
+    {
+      "id": "RS-068",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes haces un plan al aire libre con alguien?"
+    },
+    {
+      "id": "RS-069",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al año haces una reunión en tu casa?"
+    },
+    {
+      "id": "RS-070",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te quedas charlando en la puerta “5 minutos más”?"
+    },
+
+    {
+      "id": "RS-071",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que recuerdes dónde conociste a alguien?"
+    },
+    {
+      "id": "RS-072",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te guste hacer planes con mucha anticipación?"
+    },
+    {
+      "id": "RS-073",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te guste un plan de 1 a 1?"
+    },
+    {
+      "id": "RS-074",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te guste un plan de grupo?"
+    },
+    {
+      "id": "RS-075",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que seas “del team sobremesa”?"
+    },
+    {
+      "id": "RS-076",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te guste hablar de temas profundos?"
+    },
+    {
+      "id": "RS-077",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que mantengas una amistad a distancia?"
+    },
+    {
+      "id": "RS-078",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te guste “hacer de cupido”?"
+    },
+    {
+      "id": "RS-079",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que seas el/la que saca fotos en el grupo?"
+    },
+    {
+      "id": "RS-080",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te moleste que alguien llegue tarde?"
+    },
+
+    {
+      "id": "RS-081",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes cambias de opinión sobre un plan después de hablar con alguien?"
+    },
+    {
+      "id": "RS-082",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana haces un “check-in” con tu familia?"
+    },
+    {
+      "id": "RS-083",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes haces un regalo pequeño “porque sí”?"
+    },
+    {
+      "id": "RS-084",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes dices “yo llevo algo” y efectivamente lo llevas?"
+    },
+    {
+      "id": "RS-085",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes recuerdas una anécdota vieja y la vuelves a contar?"
+    },
+    {
+      "id": "RS-086",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana te acuerdas de alguien y le escribes?"
+    },
+    {
+      "id": "RS-087",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te piden “¿qué opinas?” sobre un outfit?"
+    },
+    {
+      "id": "RS-088",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te sorprende lo chico que es el mundo?"
+    },
+    {
+      "id": "RS-089",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes haces un plan “de toda la vida”: mate/café y charla?"
+    },
+    {
+      "id": "RS-090",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes alguien te dice “me hiciste reír”?"
+    },
+
+    {
+      "id": "RS-091",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que seas quien calma el ambiente?"
+    },
+    {
+      "id": "RS-092",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que seas quien enciende el ambiente?"
+    },
+    {
+      "id": "RS-093",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que recuerdes el pedido de café de un amigo?"
+    },
+    {
+      "id": "RS-094",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te ofrezcas a ayudar primero?"
+    },
+    {
+      "id": "RS-095",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te quedes sin tema de conversación?"
+    },
+    {
+      "id": "RS-096",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te guste conocer a los amigos de tus amigos?"
+    },
+    {
+      "id": "RS-097",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que seas quien propone jugar algo?"
+    },
+    {
+      "id": "RS-098",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te guste una salida “tranqui”?"
+    },
+    {
+      "id": "RS-099",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te guste una salida “intensa”?"
+    },
+    {
+      "id": "RS-100",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que estés pensando “tendría que responder mensajes”?"
+    }
+  ]
+}

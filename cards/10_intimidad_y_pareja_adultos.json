@@ -1,0 +1,515 @@
+{
+  "categoryId": "intimidad_y_pareja",
+  "categoryName": "Intimidad y Pareja (Adultos)",
+  "cards": [
+    {
+      "id": "IP-001",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan romántico/a te consideras?"
+    },
+    {
+      "id": "IP-002",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te enamores rápido?"
+    },
+    {
+      "id": "IP-003",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan celoso/a eres (en general)?"
+    },
+    {
+      "id": "IP-004",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan fan eres de las citas “planificadas”?"
+    },
+    {
+      "id": "IP-005",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan fan eres de las citas “improvisadas”?"
+    },
+    {
+      "id": "IP-006",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan cómodo/a te sientes hablando de emociones?"
+    },
+    {
+      "id": "IP-007",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan importante es para ti el sentido del humor en pareja?"
+    },
+    {
+      "id": "IP-008",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan importante es para ti la confianza en una relación?"
+    },
+    {
+      "id": "IP-009",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan importante es para ti tener espacio propio?"
+    },
+    {
+      "id": "IP-010",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que perdones rápido una metida de pata?"
+    },
+
+    {
+      "id": "IP-011",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes tienes una charla “seria” con alguien importante?"
+    },
+    {
+      "id": "IP-012",
+      "scale0to100": false,
+      "text": "¿Cuántos “lenguajes del cariño” (detalles, tiempo, palabras, etc.) crees que manejas bien?"
+    },
+    {
+      "id": "IP-013",
+      "scale0to100": false,
+      "text": "¿Cuántas citas ideales se te ocurren en 2 minutos?"
+    },
+    {
+      "id": "IP-014",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te ilusionas con un plan romántico (aunque sea simple)?"
+    },
+    {
+      "id": "IP-015",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te sale decir un cumplido espontáneo?"
+    },
+    {
+      "id": "IP-016",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes piensas “esto lo voy a contar en una cita”?"
+    },
+    {
+      "id": "IP-017",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes haces un gesto cariñoso “chiquito” (mensaje, detalle, etc.)?"
+    },
+    {
+      "id": "IP-018",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos tardas, en promedio, en contestar un “tenemos que hablar”?"
+    },
+    {
+      "id": "IP-019",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al año te declaraste (o te dieron una declaración) en serio?"
+    },
+    {
+      "id": "IP-020",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te pones “modo cursi” sin darte cuenta?"
+    },
+
+    {
+      "id": "IP-021",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te gusten los abrazos largos?"
+    },
+    {
+      "id": "IP-022",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te guste mostrar cariño en público?"
+    },
+    {
+      "id": "IP-023",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que seas quien da el primer paso?"
+    },
+    {
+      "id": "IP-024",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te dé vergüenza un piropo?"
+    },
+    {
+      "id": "IP-025",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que planees una sorpresa?"
+    },
+    {
+      "id": "IP-026",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que recuerdes fechas importantes?"
+    },
+    {
+      "id": "IP-027",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que seas detallista con regalos?"
+    },
+    {
+      "id": "IP-028",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te encariñes con alguien por su forma de hablar?"
+    },
+    {
+      "id": "IP-029",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te enamore una buena conversación?"
+    },
+    {
+      "id": "IP-030",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te moleste que te dejen en visto?"
+    },
+
+    {
+      "id": "IP-031",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes mandas un mensaje “solo para saber de ti”?"
+    },
+    {
+      "id": "IP-032",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes tienes una cita (o plan 1 a 1) ideal?"
+    },
+    {
+      "id": "IP-033",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te pasa que alguien te parece lindo/a solo por cómo se ríe?"
+    },
+    {
+      "id": "IP-034",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes sientes mariposas (o algo parecido) por alguien?"
+    },
+    {
+      "id": "IP-035",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes “haces match” con una idea de plan romántico en tu cabeza?"
+    },
+    {
+      "id": "IP-036",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al año te invitan a una cita (o te lo intentan)?"
+    },
+    {
+      "id": "IP-037",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes piensas “esta conversación está fluyendo”?"
+    },
+    {
+      "id": "IP-038",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te descubres sonriendo por un mensaje?"
+    },
+    {
+      "id": "IP-039",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te cuesta “soltar” una discusión y lo sigues pensando?"
+    },
+    {
+      "id": "IP-040",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos te dura, en promedio, un enojo chiquito con alguien querido?"
+    },
+
+    {
+      "id": "IP-041",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te guste cocinar para alguien que te gusta?"
+    },
+    {
+      "id": "IP-042",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que prefieras un plan tranquilo antes que una fiesta?"
+    },
+    {
+      "id": "IP-043",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te guste la idea de convivir?"
+    },
+    {
+      "id": "IP-044",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te guste viajar con tu pareja?"
+    },
+    {
+      "id": "IP-045",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te guste dormir cucharita?"
+    },
+    {
+      "id": "IP-046",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te guste compartir la comida (probar del plato ajeno)?"
+    },
+    {
+      "id": "IP-047",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te afecte un mal tono por chat?"
+    },
+    {
+      "id": "IP-048",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te guste la rutina en pareja?"
+    },
+    {
+      "id": "IP-049",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te guste la aventura en pareja?"
+    },
+    {
+      "id": "IP-050",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te cueste pedir perdón?"
+    },
+
+    {
+      "id": "IP-051",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes dices “te extraño” (en serio)?"
+    },
+    {
+      "id": "IP-052",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes haces un plan sorpresa (aunque sea pequeño)?"
+    },
+    {
+      "id": "IP-053",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te quedas pensando qué responder para no sonar raro/a?"
+    },
+    {
+      "id": "IP-054",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te sale mandar un audio largo “porque sí”?"
+    },
+    {
+      "id": "IP-055",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te dan ganas de poner una canción y dedicársela mentalmente a alguien?"
+    },
+    {
+      "id": "IP-056",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes recuerdas una cita/plan lindo y te da ternura?"
+    },
+    {
+      "id": "IP-057",
+      "scale0to100": false,
+      "text": "¿Cuántos detalles pequeños (que te acuerdas) hacen feliz a alguien que te importa?"
+    },
+    {
+      "id": "IP-058",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes piensas “esto sería un buen regalo” y lo anotas mentalmente?"
+    },
+    {
+      "id": "IP-059",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te pasa que una charla se vuelve profunda sin planearlo?"
+    },
+    {
+      "id": "IP-060",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes “haces las paces” con un abrazo o un gesto?"
+    },
+
+    {
+      "id": "IP-061",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te derritas con un buen “buenos días”?"
+    },
+    {
+      "id": "IP-062",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te guste recibir cartas/notas?"
+    },
+    {
+      "id": "IP-063",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te guste dar cartas/notas?"
+    },
+    {
+      "id": "IP-064",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te enamore alguien por su pasión por un hobby?"
+    },
+    {
+      "id": "IP-065",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te guste una cena casera antes que un restaurante caro?"
+    },
+    {
+      "id": "IP-066",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te guste la iniciativa (que te propongan plan)?"
+    },
+    {
+      "id": "IP-067",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te guste la reciprocidad (dar y recibir igual)?"
+    },
+    {
+      "id": "IP-068",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te cueste cerrar ciclos?"
+    },
+    {
+      "id": "IP-069",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te guste resolver discusiones rápido?"
+    },
+    {
+      "id": "IP-070",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te guste “hablar las cosas” aunque dé pereza?"
+    },
+
+    {
+      "id": "IP-071",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te quedas hasta tarde solo para hablar con alguien?"
+    },
+    {
+      "id": "IP-072",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te da por releer un chat viejo?"
+    },
+    {
+      "id": "IP-073",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te dan ganas de mandar un mensaje y al final no lo mandas?"
+    },
+    {
+      "id": "IP-074",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te pasa que alguien te gusta “sin motivo claro”?"
+    },
+    {
+      "id": "IP-075",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te sorprendes pensando en alguien en medio del día?"
+    },
+    {
+      "id": "IP-076",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes eliges una película/serie “para verla con alguien”?"
+    },
+    {
+      "id": "IP-077",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes haces un plan que no te encanta… solo por acompañar?"
+    },
+    {
+      "id": "IP-078",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te pasa que un gesto mínimo te cambia el día?"
+    },
+    {
+      "id": "IP-079",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te sientes “recontra entendido/a” por alguien?"
+    },
+    {
+      "id": "IP-080",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos de charla necesitas para sentirte cómodo/a con alguien nuevo?"
+    },
+
+    {
+      "id": "IP-081",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te moleste que lleguen tarde a una cita?"
+    },
+    {
+      "id": "IP-082",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te guste dividir tareas (equipo) en convivencia?"
+    },
+    {
+      "id": "IP-083",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te guste hablar de futuro?"
+    },
+    {
+      "id": "IP-084",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te guste mantener un “ritual” (café juntos, paseo, etc.)?"
+    },
+    {
+      "id": "IP-085",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que seas de los que dicen “te quiero” seguido?"
+    },
+    {
+      "id": "IP-086",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te cueste hablar si algo te molesta?"
+    },
+    {
+      "id": "IP-087",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te guste la demostración de cariño con detalles?"
+    },
+    {
+      "id": "IP-088",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te guste la demostración de cariño con tiempo?"
+    },
+    {
+      "id": "IP-089",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te guste la demostración de cariño con palabras?"
+    },
+    {
+      "id": "IP-090",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te guste la demostración de cariño con contacto (abrazos, etc.)?"
+    },
+
+    {
+      "id": "IP-091",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te acuerdas de una frase linda que te dijeron?"
+    },
+    {
+      "id": "IP-092",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te sale agradecer un gesto en voz alta?"
+    },
+    {
+      "id": "IP-093",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te pasa que un malentendido se arregla con una charla?"
+    },
+    {
+      "id": "IP-094",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te da por planear un viaje con alguien (aunque sea imaginario)?"
+    },
+    {
+      "id": "IP-095",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te da por imaginar cómo sería vivir con alguien?"
+    },
+    {
+      "id": "IP-096",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te sale pedir un abrazo?"
+    },
+    {
+      "id": "IP-097",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te da por cocinar algo “para compartir”?"
+    },
+    {
+      "id": "IP-098",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te sale decir lo que sientes “sin filtro” (pero con respeto)?"
+    },
+    {
+      "id": "IP-099",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes prefieres un plan de casa (película + mantita) antes que salir?"
+    },
+    {
+      "id": "IP-100",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes piensas “qué suerte tener a esta persona”?"
+    }
+  ]
+}

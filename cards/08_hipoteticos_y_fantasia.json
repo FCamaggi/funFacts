@@ -1,0 +1,515 @@
+{
+  "categoryId": "hipoteticos_y_fantasia",
+  "categoryName": "Hipotéticos y Fantasía",
+  "cards": [
+    {
+      "id": "HF-001",
+      "scale0to100": false,
+      "text": "Si hoy pudieras teletransportarte, ¿a cuántos lugares distintos irías en 24 horas?"
+    },
+    {
+      "id": "HF-002",
+      "scale0to100": false,
+      "text": "Si te dan un botón para pausar el tiempo 1 vez, ¿cuántos minutos lo pausarías?"
+    },
+    {
+      "id": "HF-003",
+      "scale0to100": false,
+      "text": "Si fueras invisible por un día (sin consecuencias), ¿cuántas travesuras harías?"
+    },
+    {
+      "id": "HF-004",
+      "scale0to100": false,
+      "text": "Si pudieras hablar con animales, ¿a cuántas especies le harías una pregunta?"
+    },
+    {
+      "id": "HF-005",
+      "scale0to100": false,
+      "text": "Si te conviertes en superhéroe por una tarde, ¿a cuántas personas salvarías hoy?"
+    },
+    {
+      "id": "HF-006",
+      "scale0to100": false,
+      "text": "Si pudieras duplicarte, ¿cuántas copias tuyas crearías (máximo razonable)?"
+    },
+    {
+      "id": "HF-007",
+      "scale0to100": false,
+      "text": "Si tuvieras una varita mágica con 3 hechizos, ¿cuántos usarías solo para comodidad?"
+    },
+    {
+      "id": "HF-008",
+      "scale0to100": false,
+      "text": "Si pudieras borrar un recuerdo vergonzoso, ¿cuántos borrarías?"
+    },
+    {
+      "id": "HF-009",
+      "scale0to100": false,
+      "text": "Si te dieran una mochila sin fondo, ¿cuántas cosas llevarías siempre encima?"
+    },
+    {
+      "id": "HF-010",
+      "scale0to100": false,
+      "text": "Si pudieras tener un robot asistente, ¿cuántas tareas diarias le delegarías?"
+    },
+
+    {
+      "id": "HF-011",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que sobrevivas en un apocalipsis zombie?"
+    },
+    {
+      "id": "HF-012",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te unas al lado oscuro si te ofrecen galletas?"
+    },
+    {
+      "id": "HF-013",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan buena sería tu puntería con un arco en un mundo medieval?"
+    },
+    {
+      "id": "HF-014",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que seas líder de la rebelión?"
+    },
+    {
+      "id": "HF-015",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te pierdas en un castillo gigante?"
+    },
+    {
+      "id": "HF-016",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que tengas un “poder inútil pero gracioso”?"
+    },
+    {
+      "id": "HF-017",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que seas la/el elegido/a… por error?"
+    },
+    {
+      "id": "HF-018",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que seas amigo/a del dragón en vez de pelear?"
+    },
+    {
+      "id": "HF-019",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te compres una capa si estuviera socialmente aceptado?"
+    },
+    {
+      "id": "HF-020",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que uses un hechizo para limpiar en vez de limpiar?"
+    },
+
+    {
+      "id": "HF-021",
+      "scale0to100": false,
+      "text": "Si pudieras vivir dentro de una película/serie, ¿cuántas temporadas aguantarías?"
+    },
+    {
+      "id": "HF-022",
+      "scale0to100": false,
+      "text": "Si te dan una tarjeta infinita por 1 hora, ¿cuántas cosas comprarías?"
+    },
+    {
+      "id": "HF-023",
+      "scale0to100": false,
+      "text": "Si te ofrecen volver 10 años al pasado por 1 día, ¿cuántas cosas cambiarías?"
+    },
+    {
+      "id": "HF-024",
+      "scale0to100": false,
+      "text": "Si hoy aparece un portal y te deja elegir, ¿cuántos días te irías sin avisar?"
+    },
+    {
+      "id": "HF-025",
+      "scale0to100": false,
+      "text": "Si pudieras tener una casa en cualquier lugar del mundo, ¿a cuántos amigos invitarías al estreno?"
+    },
+    {
+      "id": "HF-026",
+      "scale0to100": false,
+      "text": "Si tus sueños fueran episodios, ¿cuántos episodios por semana veríamos?"
+    },
+    {
+      "id": "HF-027",
+      "scale0to100": false,
+      "text": "Si pudieras aprender un idioma al instante, ¿cuántos aprenderías hoy?"
+    },
+    {
+      "id": "HF-028",
+      "scale0to100": false,
+      "text": "Si tuvieras un “modo silencio” para el mundo, ¿cuántas horas al día lo activarías?"
+    },
+    {
+      "id": "HF-029",
+      "scale0to100": false,
+      "text": "Si pudieras controlar el clima en tu barrio, ¿cuántos días al mes pondrías “día perfecto”?"
+    },
+    {
+      "id": "HF-030",
+      "scale0to100": false,
+      "text": "Si un genio te concede un deseo “chiquito” por semana, ¿cuántas semanas lo usarías seguido?"
+    },
+
+    {
+      "id": "HF-031",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que sobrevivas sin internet 30 días en una isla?"
+    },
+    {
+      "id": "HF-032",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te enamores de un personaje ficticio?"
+    },
+    {
+      "id": "HF-033",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que uses el teletransporte solo para evitar lluvia?"
+    },
+    {
+      "id": "HF-034",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que aceptes una misión peligrosa por una recompensa tonta?"
+    },
+    {
+      "id": "HF-035",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que seas el personaje que tropieza pero salva el día?"
+    },
+    {
+      "id": "HF-036",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que domines la magia si requiere estudiar?"
+    },
+    {
+      "id": "HF-037",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te adopte una familia de elfos?"
+    },
+    {
+      "id": "HF-038",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te conviertas en villano por cansancio?"
+    },
+    {
+      "id": "HF-039",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que uses un poder para hacer bromas?"
+    },
+    {
+      "id": "HF-040",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que intentes domesticar un unicornio?"
+    },
+
+    {
+      "id": "HF-041",
+      "scale0to100": false,
+      "text": "Si pudieras elegir tu mascota fantástica, ¿cuántos cuernos/alas tendría?"
+    },
+    {
+      "id": "HF-042",
+      "scale0to100": false,
+      "text": "Si te dan un mapa del tesoro real, ¿cuántos kilómetros caminarías antes de rendirte?"
+    },
+    {
+      "id": "HF-043",
+      "scale0to100": false,
+      "text": "Si pudieras reiniciar tu día como en un videojuego, ¿cuántas veces lo reiniciarías al mes?"
+    },
+    {
+      "id": "HF-044",
+      "scale0to100": false,
+      "text": "Si un mago te ofrece 1 objeto encantado, ¿cuántos inconvenientes aceptarías por tenerlo?"
+    },
+    {
+      "id": "HF-045",
+      "scale0to100": false,
+      "text": "Si pudieras tener un botón de “mute” para una persona por día, ¿cuántas veces por semana lo usarías?"
+    },
+    {
+      "id": "HF-046",
+      "scale0to100": false,
+      "text": "Si hoy te vuelves famoso/a por algo absurdo, ¿cuántos días aguantarías la fama?"
+    },
+    {
+      "id": "HF-047",
+      "scale0to100": false,
+      "text": "Si pudieras crear un feriado nuevo, ¿cuántos días duraría?"
+    },
+    {
+      "id": "HF-048",
+      "scale0to100": false,
+      "text": "Si pudieras cambiar de cuerpo con alguien por 1 hora, ¿con cuántas personas lo harías (en total)?"
+    },
+    {
+      "id": "HF-049",
+      "scale0to100": false,
+      "text": "Si te dieran una capa que te hace volar, ¿cuántos minutos volarías antes de marearte?"
+    },
+    {
+      "id": "HF-050",
+      "scale0to100": false,
+      "text": "Si tu vida tuviera una barra de energía, ¿cuántos puntos tendrías hoy?"
+    },
+
+    {
+      "id": "HF-051",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que seas el personaje que siempre trae snacks a la misión?"
+    },
+    {
+      "id": "HF-052",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te conviertas en “mentor” de alguien?"
+    },
+    {
+      "id": "HF-053",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te distraigas con una misión secundaria?"
+    },
+    {
+      "id": "HF-054",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que ganes por pura suerte?"
+    },
+    {
+      "id": "HF-055",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te toque ser el/la estratega del grupo?"
+    },
+    {
+      "id": "HF-056",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te enamores del antagonista?"
+    },
+    {
+      "id": "HF-057",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te quedes con el tesoro y lo niegues?"
+    },
+    {
+      "id": "HF-058",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que le pongas nombre a tu espada?"
+    },
+    {
+      "id": "HF-059",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que seas el/la que lee el manual de magia?"
+    },
+    {
+      "id": "HF-060",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que sobrevivas a una casa embrujada una noche?"
+    },
+
+    {
+      "id": "HF-061",
+      "scale0to100": false,
+      "text": "Si pudieras pausar el tiempo para dormir, ¿cuántas horas extra dormirías por semana?"
+    },
+    {
+      "id": "HF-062",
+      "scale0to100": false,
+      "text": "Si tuvieras un detector de mentiras, ¿a cuántas personas se lo aplicarías (una vez)?"
+    },
+    {
+      "id": "HF-063",
+      "scale0to100": false,
+      "text": "Si pudieras borrar una palabra del diccionario, ¿cuántas borrarías?"
+    },
+    {
+      "id": "HF-064",
+      "scale0to100": false,
+      "text": "Si hoy recibes una misión secreta, ¿cuántos minutos tardas en contárselo a alguien?"
+    },
+    {
+      "id": "HF-065",
+      "scale0to100": false,
+      "text": "Si pudieras vivir sin necesitar dormir, ¿cuántas horas extra usarías al día?"
+    },
+    {
+      "id": "HF-066",
+      "scale0to100": false,
+      "text": "Si pudieras tener un “inventario” como en los videojuegos, ¿cuántos ítems llevarías siempre?"
+    },
+    {
+      "id": "HF-067",
+      "scale0to100": false,
+      "text": "Si pudieras ponerle subtítulos a la vida real, ¿cuántos idiomas activarías?"
+    },
+    {
+      "id": "HF-068",
+      "scale0to100": false,
+      "text": "Si te dieran 100 monedas mágicas para gastar hoy, ¿cuántas gastarías en comida?"
+    },
+    {
+      "id": "HF-069",
+      "scale0to100": false,
+      "text": "Si pudieras rebobinar 1 conversación, ¿cuántos segundos rebobinarías?"
+    },
+    {
+      "id": "HF-070",
+      "scale0to100": false,
+      "text": "Si tus pensamientos aparecieran en globitos como cómic por 1 minuto, ¿cuántas personas huirían?"
+    },
+
+    {
+      "id": "HF-071",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que un alienígena te elija como embajador/a?"
+    },
+    {
+      "id": "HF-072",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que adoptes una mascota alien?"
+    },
+    {
+      "id": "HF-073",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te hagas amigo/a del monstruo bajo la cama?"
+    },
+    {
+      "id": "HF-074",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te olvides de tu propio nombre en una aventura?"
+    },
+    {
+      "id": "HF-075",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que uses un anillo mágico para comer sin engordar?"
+    },
+    {
+      "id": "HF-076",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que seas el/la que abre la puerta prohibida?"
+    },
+    {
+      "id": "HF-077",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te hagas famoso/a en un mundo mágico por accidente?"
+    },
+    {
+      "id": "HF-078",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que uses un hechizo para ganar en un juego de mesa?"
+    },
+    {
+      "id": "HF-079",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te quedes charlando con un fantasma?"
+    },
+    {
+      "id": "HF-080",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que tu poder sea hablar con plantas?"
+    },
+
+    {
+      "id": "HF-081",
+      "scale0to100": false,
+      "text": "Si pudieras diseñar un planeta, ¿cuántas lunas tendría?"
+    },
+    {
+      "id": "HF-082",
+      "scale0to100": false,
+      "text": "Si pudieras invitar a personajes famosos (reales o ficticios) a cenar, ¿a cuántos invitarías?"
+    },
+    {
+      "id": "HF-083",
+      "scale0to100": false,
+      "text": "Si el dinero apareciera como “loot”, ¿cuántas veces al día estarías mirando el piso?"
+    },
+    {
+      "id": "HF-084",
+      "scale0to100": false,
+      "text": "Si tu casa tuviera un botón de autolimpieza, ¿cuántas veces por semana lo apretarías?"
+    },
+    {
+      "id": "HF-085",
+      "scale0to100": false,
+      "text": "Si pudieras hacer que un objeto nunca más se pierda, ¿cuántos objetos elegirías?"
+    },
+    {
+      "id": "HF-086",
+      "scale0to100": false,
+      "text": "Si pudieras tener un “save” antes de una conversación difícil, ¿cuántos saves usarías al mes?"
+    },
+    {
+      "id": "HF-087",
+      "scale0to100": false,
+      "text": "Si pudieras crear una criatura fantástica, ¿cuántas patas tendría?"
+    },
+    {
+      "id": "HF-088",
+      "scale0to100": false,
+      "text": "Si te dan un libro que responde 1 pregunta por día, ¿cuántos días lo usarías seguido?"
+    },
+    {
+      "id": "HF-089",
+      "scale0to100": false,
+      "text": "Si pudieras tener un “modo ultra carisma” 10 minutos al día, ¿cuántos minutos usarías hoy?"
+    },
+    {
+      "id": "HF-090",
+      "scale0to100": false,
+      "text": "Si tuvieras un portal directo a tu lugar favorito, ¿cuántas veces por semana lo usarías?"
+    },
+
+    {
+      "id": "HF-091",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que aceptes ser capitán/a de una nave espacial?"
+    },
+    {
+      "id": "HF-092",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te conviertas en detective en un mundo noir?"
+    },
+    {
+      "id": "HF-093",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te dé miedo tu propio clon?"
+    },
+    {
+      "id": "HF-094",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que uses un hechizo para “deshacer” un mensaje enviado?"
+    },
+    {
+      "id": "HF-095",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que tuvieras un “nemesis” por una tontería?"
+    },
+    {
+      "id": "HF-096",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te conviertas en guardián/a de un bosque mágico?"
+    },
+    {
+      "id": "HF-097",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te olvides el hechizo a mitad de lanzarlo?"
+    },
+    {
+      "id": "HF-098",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que tu primer deseo sea “más deseos”?"
+    },
+    {
+      "id": "HF-099",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que uses poderes para hacerte la vida más fácil (no más épica)?"
+    },
+    {
+      "id": "HF-100",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que tu aventura termine en una siesta?"
+    }
+  ]
+}

@@ -1,0 +1,515 @@
+{
+  "categoryId": "habitos_cotidianos",
+  "categoryName": "Hábitos Cotidianos",
+  "cards": [
+    {
+      "id": "HC-001",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos sueles tardar en ducharte?"
+    },
+    {
+      "id": "HC-002",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al día miras la hora (en cualquier dispositivo)?"
+    },
+    {
+      "id": "HC-003",
+      "scale0to100": false,
+      "text": "¿Cuántos cafés (o mates/tés) tomas en un día normal?"
+    },
+    {
+      "id": "HC-004",
+      "scale0to100": false,
+      "text": "¿Cuántos pasos crees que haces en un día promedio?"
+    },
+    {
+      "id": "HC-005",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos tardas desde que suena la alarma hasta que te levantas de la cama?"
+    },
+    {
+      "id": "HC-006",
+      "scale0to100": false,
+      "text": "¿Cuántas horas duermes una noche típica?"
+    },
+    {
+      "id": "HC-007",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana cocinas en casa?"
+    },
+    {
+      "id": "HC-008",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al día te lavas los dientes?"
+    },
+    {
+      "id": "HC-009",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos sueles tardar en quedarte dormido?"
+    },
+    {
+      "id": "HC-010",
+      "scale0to100": false,
+      "text": "¿Cuántas botellas/vasos de agua bebes al día?"
+    },
+
+    {
+      "id": "HC-011",
+      "scale0to100": false,
+      "text": "¿Cuántas veces por semana pides comida a domicilio?"
+    },
+    {
+      "id": "HC-012",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos pasas mirando la nevera antes de decidir qué comer?"
+    },
+    {
+      "id": "HC-013",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana haces la compra?"
+    },
+    {
+      "id": "HC-014",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos tardas en preparar tu desayuno típico?"
+    },
+    {
+      "id": "HC-015",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al día abres la puerta de la heladera/nevera?"
+    },
+    {
+      "id": "HC-016",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana haces ejercicio (aunque sea suave)?"
+    },
+    {
+      "id": "HC-017",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos al día dedicas a ordenar/limpiar algo en casa?"
+    },
+    {
+      "id": "HC-018",
+      "scale0to100": false,
+      "text": "¿Cuántas veces por semana te olvidas dónde dejaste las llaves?"
+    },
+    {
+      "id": "HC-019",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos tardas en responder un mensaje importante, en promedio?"
+    },
+    {
+      "id": "HC-020",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al día dices “después lo hago”?"
+    },
+
+    {
+      "id": "HC-021",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana llegas tarde (aunque sea 5 minutos)?"
+    },
+    {
+      "id": "HC-022",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos tardas en vestirte (sin contar ducha)?"
+    },
+    {
+      "id": "HC-023",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana pones una alarma “por si acaso”?"
+    },
+    {
+      "id": "HC-024",
+      "scale0to100": false,
+      "text": "¿Cuántos días a la semana desayunas?"
+    },
+    {
+      "id": "HC-025",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos al día escuchas música?"
+    },
+    {
+      "id": "HC-026",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana comes algo dulce?"
+    },
+    {
+      "id": "HC-027",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos pasas en el baño por visita (promedio)?"
+    },
+    {
+      "id": "HC-028",
+      "scale0to100": false,
+      "text": "¿Cuántas veces por semana te pones ropa “de estar en casa” antes de la tarde?"
+    },
+    {
+      "id": "HC-029",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos sueles tardar en salir de casa desde que decides salir?"
+    },
+    {
+      "id": "HC-030",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al día revisas si te llegó algún paquete/correo?"
+    },
+
+    {
+      "id": "HC-031",
+      "scale0to100": false,
+      "text": "¿Cuántas veces por semana comes fuera (bar/restaurante)?"
+    },
+    {
+      "id": "HC-032",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos pasas al día mirando por la ventana sin hacer nada más?"
+    },
+    {
+      "id": "HC-033",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana cambias las sábanas?"
+    },
+    {
+      "id": "HC-034",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al día te lavas las manos (aprox.)?"
+    },
+    {
+      "id": "HC-035",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos tardas en hacer tu cama cuando la haces?"
+    },
+    {
+      "id": "HC-036",
+      "scale0to100": false,
+      "text": "¿Cuántos días a la semana comes fruta?"
+    },
+    {
+      "id": "HC-037",
+      "scale0to100": false,
+      "text": "¿Cuántas veces por semana te haces un “snack” entre comidas?"
+    },
+    {
+      "id": "HC-038",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al día revisas el clima/pronóstico?"
+    },
+    {
+      "id": "HC-039",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos al día pasas buscando algo (control remoto, cargador, etc.)?"
+    },
+    {
+      "id": "HC-040",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana lavas ropa?"
+    },
+
+    {
+      "id": "HC-041",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos tardas en decidir qué ver en una plataforma (cuando sí vas a ver algo)?"
+    },
+    {
+      "id": "HC-042",
+      "scale0to100": false,
+      "text": "¿Cuántas veces por semana te comes el último bocado “solo por no dejar”?"
+    },
+    {
+      "id": "HC-043",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al día te quedas pensando “¿qué venía a hacer?”?"
+    },
+    {
+      "id": "HC-044",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos al día te pasas organizando (o reordenando) cosas?"
+    },
+    {
+      "id": "HC-045",
+      "scale0to100": false,
+      "text": "¿Cuántas veces por semana usas transporte público?"
+    },
+    {
+      "id": "HC-046",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos al día caminas (aprox.)?"
+    },
+    {
+      "id": "HC-047",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana ves a tus vecinos (aunque sea de pasada)?"
+    },
+    {
+      "id": "HC-048",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al día dices “¿dónde está mi…?”?"
+    },
+    {
+      "id": "HC-049",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos al día dedicas a preparar café/té/mate en total?"
+    },
+    {
+      "id": "HC-050",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana limpias la pantalla del móvil (o la intentas limpiar)?"
+    },
+
+    {
+      "id": "HC-051",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos al día pasas mirando redes sociales antes de empezar “lo importante”?"
+    },
+    {
+      "id": "HC-052",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana te comes algo “de pie” en la cocina?"
+    },
+    {
+      "id": "HC-053",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al día cambias de habitación sin un motivo claro?"
+    },
+    {
+      "id": "HC-054",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos tardas en encontrar una canción que te apetezca escuchar?"
+    },
+    {
+      "id": "HC-055",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana friegas/lavas platos (a mano o máquina)?"
+    },
+    {
+      "id": "HC-056",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos al día pasas en la cola de algo (super, café, etc.)?"
+    },
+    {
+      "id": "HC-057",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana te olvidas de algo que ibas a comprar?"
+    },
+    {
+      "id": "HC-058",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos al día pasas buscando “qué me pongo”?"
+    },
+    {
+      "id": "HC-059",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana comes lo mismo que ya comiste hace poco?"
+    },
+    {
+      "id": "HC-060",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al día miras el espejo (sin contar cepillarte dientes)?"
+    },
+
+    {
+      "id": "HC-061",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos al día dedicas a tu mascota (si no tienes, imagina una planta)?"
+    },
+    {
+      "id": "HC-062",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana haces una lista (mental o escrita) de cosas por hacer?"
+    },
+    {
+      "id": "HC-063",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al día revisas si te queda batería?"
+    },
+    {
+      "id": "HC-064",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos tardas en preparar tu “salida” (llaves, billetera, móvil)?"
+    },
+    {
+      "id": "HC-065",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana te das un “capricho” pequeño?"
+    },
+    {
+      "id": "HC-066",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al día te ríes en voz alta (aprox.)?"
+    },
+    {
+      "id": "HC-067",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana te quedas despierto más tarde de lo planeado?"
+    },
+    {
+      "id": "HC-068",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos al día pasas con auriculares puestos?"
+    },
+    {
+      "id": "HC-069",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana te tomas un descanso “porque sí”?"
+    },
+    {
+      "id": "HC-070",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al día vuelves a revisar si cerraste la puerta?"
+    },
+
+    {
+      "id": "HC-071",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos al día dedicas a leer (libro, artículos, cómics)?"
+    },
+    {
+      "id": "HC-072",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al día dices “solo 5 minutos más”?"
+    },
+    {
+      "id": "HC-073",
+      "scale0to100": false,
+      "text": "¿Cuántas veces por semana desayunas algo dulce?"
+    },
+    {
+      "id": "HC-074",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos tardas en salir de casa si te dicen “nos vamos ya”?"
+    },
+    {
+      "id": "HC-075",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana te olvidas de una cita o plan (y lo recuperas a tiempo)?"
+    },
+    {
+      "id": "HC-076",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al día te pones a ordenar una cosa y terminas ordenando otra?"
+    },
+    {
+      "id": "HC-077",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos al día pasas preparando comida (sumando todo)?"
+    },
+    {
+      "id": "HC-078",
+      "scale0to100": false,
+      "text": "¿Cuántas veces por semana comes verduras?"
+    },
+    {
+      "id": "HC-079",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al día abres el chat “solo para ver” y no escribes nada?"
+    },
+    {
+      "id": "HC-080",
+      "scale0to100": false,
+      "text": "¿Cuántas veces por semana te quedas sin algún ingrediente básico en casa?"
+    },
+
+    {
+      "id": "HC-081",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos tardas en encontrar tus auriculares cuando los necesitas?"
+    },
+    {
+      "id": "HC-082",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana dices “hoy sí me acuesto temprano”?"
+    },
+    {
+      "id": "HC-083",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos al día pasas mirando memes?"
+    },
+    {
+      "id": "HC-084",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana te haces un café/té/mate “extra” por antojo?"
+    },
+    {
+      "id": "HC-085",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al día revisas el calendario (o la agenda)?"
+    },
+    {
+      "id": "HC-086",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos al día pasas cocinando “a ojo” sin receta?"
+    },
+    {
+      "id": "HC-087",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana te pones a buscar algo y terminas comprando otra cosa?"
+    },
+    {
+      "id": "HC-088",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al día tomas una decisión y la cambias a los 2 minutos?"
+    },
+    {
+      "id": "HC-089",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos tardas en preparar tu bolso/mochila antes de salir?"
+    },
+    {
+      "id": "HC-090",
+      "scale0to100": false,
+      "text": "¿Cuántas veces por semana haces una siesta?"
+    },
+
+    {
+      "id": "HC-091",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al día dices “¿qué comemos hoy?”?"
+    },
+    {
+      "id": "HC-092",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos al día pasas pensando en qué vas a comer después?"
+    },
+    {
+      "id": "HC-093",
+      "scale0to100": false,
+      "text": "¿Cuántas veces por semana escuchas un podcast o audiolibro?"
+    },
+    {
+      "id": "HC-094",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al día te quedas con una canción pegada en la cabeza?"
+    },
+    {
+      "id": "HC-095",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos tardas en ordenar tu escritorio/mesa cuando te lo propones?"
+    },
+    {
+      "id": "HC-096",
+      "scale0to100": false,
+      "text": "¿Cuántas veces por semana cambias de ruta para ir al mismo lugar?"
+    },
+    {
+      "id": "HC-097",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al día te asomas a la cocina “a ver si hay algo”?"
+    },
+    {
+      "id": "HC-098",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos al día pasas buscando algo para ver/leer/escuchar?"
+    },
+    {
+      "id": "HC-099",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana haces un “arreglo rápido” que termina durando meses?"
+    },
+    {
+      "id": "HC-100",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos al día estás sin mirar una pantalla (sin contar dormir)?"
+    }
+  ]
+}

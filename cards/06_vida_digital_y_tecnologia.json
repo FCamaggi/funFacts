@@ -1,0 +1,515 @@
+{
+  "categoryId": "vida_digital_y_tecnologia",
+  "categoryName": "Vida Digital y Tecnología",
+  "cards": [
+    {
+      "id": "VD-001",
+      "scale0to100": false,
+      "text": "¿Cuántas horas de tiempo de pantalla tuviste ayer?"
+    },
+    {
+      "id": "VD-002",
+      "scale0to100": false,
+      "text": "¿Cuántas notificaciones recibiste ayer (aprox.)?"
+    },
+    {
+      "id": "VD-003",
+      "scale0to100": false,
+      "text": "¿Cuántas apps tienes instaladas en el móvil (estimación)?"
+    },
+    {
+      "id": "VD-004",
+      "scale0to100": false,
+      "text": "¿Cuántas pestañas tienes abiertas ahora mismo (en total)?"
+    },
+    {
+      "id": "VD-005",
+      "scale0to100": false,
+      "text": "¿Cuántos correos sin leer tienes (estimación)?"
+    },
+    {
+      "id": "VD-006",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al día desbloqueas el teléfono (aprox.)?"
+    },
+    {
+      "id": "VD-007",
+      "scale0to100": false,
+      "text": "¿Cuántos grupos de chat tienes silenciados?"
+    },
+    {
+      "id": "VD-008",
+      "scale0to100": false,
+      "text": "¿Cuántas fotos sacaste en la última semana?"
+    },
+    {
+      "id": "VD-009",
+      "scale0to100": false,
+      "text": "¿Cuántos GB libres te quedan en el móvil/PC (aprox.)?"
+    },
+    {
+      "id": "VD-010",
+      "scale0to100": false,
+      "text": "¿Cuántas contraseñas diferentes usas en realidad (sin mentirte)?"
+    },
+
+    {
+      "id": "VD-011",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan dependiente eres del GPS?"
+    },
+    {
+      "id": "VD-012",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan rápido respondes mensajes importantes?"
+    },
+    {
+      "id": "VD-013",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan ordenado/a está tu escritorio digital (carpetas, archivos)?"
+    },
+    {
+      "id": "VD-014",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan “adicto/a” te consideras al scroll infinito?"
+    },
+    {
+      "id": "VD-015",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan seguido revisas las redes “sin motivo”?"
+    },
+    {
+      "id": "VD-016",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien manejas las contraseñas (sin post-its)?"
+    },
+    {
+      "id": "VD-017",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan paranoico/a eres con la privacidad online?"
+    },
+    {
+      "id": "VD-018",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan rápido te desesperas si no hay Wi‑Fi?"
+    },
+    {
+      "id": "VD-019",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan fan eres de las videollamadas?"
+    },
+    {
+      "id": "VD-020",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que apagues notificaciones por 1 día?"
+    },
+
+    {
+      "id": "VD-021",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al día dices “un minuto” y terminan siendo 10 en el móvil?"
+    },
+    {
+      "id": "VD-022",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes borras fotos para hacer espacio?"
+    },
+    {
+      "id": "VD-023",
+      "scale0to100": false,
+      "text": "¿Cuántos backups (copias de seguridad) hiciste el último año?"
+    },
+    {
+      "id": "VD-024",
+      "scale0to100": false,
+      "text": "¿Cuántos dispositivos tienes que cargar regularmente (móvil, reloj, auris, etc.)?"
+    },
+    {
+      "id": "VD-025",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes cambias tu foto de perfil (sumando redes)?"
+    },
+    {
+      "id": "VD-026",
+      "scale0to100": false,
+      "text": "¿Cuántas cuentas de streaming tienes (pagas o compartidas)?"
+    },
+    {
+      "id": "VD-027",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te olvidas dónde dejaste el cargador?"
+    },
+    {
+      "id": "VD-028",
+      "scale0to100": false,
+      "text": "¿Cuántas listas de reproducción tienes creadas?"
+    },
+    {
+      "id": "VD-029",
+      "scale0to100": false,
+      "text": "¿Cuántos audios largos enviaste la última semana?"
+    },
+    {
+      "id": "VD-030",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes limpias la bandeja de entrada (o lo intentas)?"
+    },
+
+    {
+      "id": "VD-031",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan seguido actualizas apps “apenas sale”?"
+    },
+    {
+      "id": "VD-032",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan fan eres de probar apps nuevas?"
+    },
+    {
+      "id": "VD-033",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que tengas el brillo del móvil al máximo?"
+    },
+    {
+      "id": "VD-034",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan seguido usas notas/listas en el móvil?"
+    },
+    {
+      "id": "VD-035",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan bien se te da recordar dónde guardaste un archivo?"
+    },
+    {
+      "id": "VD-036",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que tengas el modo oscuro activado?"
+    },
+    {
+      "id": "VD-037",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan seguido pones el móvil en silencio?"
+    },
+    {
+      "id": "VD-038",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan fan eres de los mensajes de voz?"
+    },
+    {
+      "id": "VD-039",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan seguido buscas “cómo se hace” en internet?"
+    },
+    {
+      "id": "VD-040",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que tengas 2FA activado?"
+    },
+
+    {
+      "id": "VD-041",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al día abres una app y te olvidas por qué la abriste?"
+    },
+    {
+      "id": "VD-042",
+      "scale0to100": false,
+      "text": "¿Cuántos chats tienes fijados/anchored arriba?"
+    },
+    {
+      "id": "VD-043",
+      "scale0to100": false,
+      "text": "¿Cuántos stickers/pegatinas tienes guardados (estimación)?"
+    },
+    {
+      "id": "VD-044",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes cambias el fondo de pantalla?"
+    },
+    {
+      "id": "VD-045",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes cierras pestañas por “vergüenza” (eran demasiadas)?"
+    },
+    {
+      "id": "VD-046",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana miras reseñas antes de comprar algo?"
+    },
+    {
+      "id": "VD-047",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes reinicias un dispositivo “porque sí”?"
+    },
+    {
+      "id": "VD-048",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al día revisas el pronóstico desde el móvil?"
+    },
+    {
+      "id": "VD-049",
+      "scale0to100": false,
+      "text": "¿Cuántos contactos tienes en tu agenda (estimación)?"
+    },
+    {
+      "id": "VD-050",
+      "scale0to100": false,
+      "text": "¿Cuántos chats tienes archivados?"
+    },
+
+    {
+      "id": "VD-051",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan fan eres de los emojis?"
+    },
+    {
+      "id": "VD-052",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que tengas el escritorio lleno de íconos?"
+    },
+    {
+      "id": "VD-053",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan seguido haces “capturas de pantalla” para recordarte algo?"
+    },
+    {
+      "id": "VD-054",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te sepas tu número de teléfono de memoria?"
+    },
+    {
+      "id": "VD-055",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan seguido usas el “buscar” para encontrar cosas?"
+    },
+    {
+      "id": "VD-056",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan seguido respondes con “jajaja” aunque no te rías?"
+    },
+    {
+      "id": "VD-057",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que tengas el móvil con menos de 20% de batería?"
+    },
+    {
+      "id": "VD-058",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan seguido revisas el saldo/finanzas desde una app?"
+    },
+    {
+      "id": "VD-059",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan fan eres de la IA/asistentes (chatbots, etc.)?"
+    },
+    {
+      "id": "VD-060",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que uses atajos/automatizaciones?"
+    },
+
+    {
+      "id": "VD-061",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos tardas en contestar un mensaje cuando estás “en línea”?"
+    },
+    {
+      "id": "VD-062",
+      "scale0to100": false,
+      "text": "¿Cuántas videollamadas hiciste la última semana?"
+    },
+    {
+      "id": "VD-063",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes cambias una contraseña?"
+    },
+    {
+      "id": "VD-064",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te desuscribes de correos publicitarios?"
+    },
+    {
+      "id": "VD-065",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana publicas algo (post, historia, foto)?: estimación"
+    },
+    {
+      "id": "VD-066",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes compras algo online?"
+    },
+    {
+      "id": "VD-067",
+      "scale0to100": false,
+      "text": "¿Cuántas apps de mensajería usas (aunque sea poco)?"
+    },
+    {
+      "id": "VD-068",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana te encuentras leyendo comentarios?"
+    },
+    {
+      "id": "VD-069",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos al día escuchas música desde el móvil/PC?"
+    },
+    {
+      "id": "VD-070",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana te aparece “almacenamiento lleno” (o lo temes)?"
+    },
+
+    {
+      "id": "VD-071",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que tengas 30 pestañas abiertas?"
+    },
+    {
+      "id": "VD-072",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan fan eres de las videollamadas con cámara encendida?"
+    },
+    {
+      "id": "VD-073",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que tengas el móvil sin sonido pero con vibración?"
+    },
+    {
+      "id": "VD-074",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan seguido revisas noticias desde el móvil?"
+    },
+    {
+      "id": "VD-075",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te acuerdes de tu primera cuenta online?"
+    },
+    {
+      "id": "VD-076",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan seguido limpias la galería (y no te arrepientes)?"
+    },
+    {
+      "id": "VD-077",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que tengas una app “para todo”?"
+    },
+    {
+      "id": "VD-078",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan fan eres de los recordatorios/calendario?"
+    },
+    {
+      "id": "VD-079",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que contestes un mail en el móvil?"
+    },
+    {
+      "id": "VD-080",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que tengas el cargador en la mochila ahora?"
+    },
+
+    {
+      "id": "VD-081",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana pierdes el móvil “dentro de casa”?"
+    },
+    {
+      "id": "VD-082",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes te olvidas de actualizar algo importante (app/OS)?"
+    },
+    {
+      "id": "VD-083",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al día revisas el reloj aunque ya lo viste hace 30 segundos?"
+    },
+    {
+      "id": "VD-084",
+      "scale0to100": false,
+      "text": "¿Cuántos filtros diferentes usas (si usas) al sacar fotos?"
+    },
+    {
+      "id": "VD-085",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes cambias de foto de perfil “porque sí”?"
+    },
+    {
+      "id": "VD-086",
+      "scale0to100": false,
+      "text": "¿Cuántos minutos tardas en encontrar un email viejo que necesitas?"
+    },
+    {
+      "id": "VD-087",
+      "scale0to100": false,
+      "text": "¿Cuántos newsletters estás suscrito/a (aunque no leas ninguno)?"
+    },
+    {
+      "id": "VD-088",
+      "scale0to100": false,
+      "text": "¿Cuántas veces al mes miras “memorias/recuerdos” de fotos?"
+    },
+    {
+      "id": "VD-089",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana guardas un link para “ver después”?"
+    },
+    {
+      "id": "VD-090",
+      "scale0to100": false,
+      "text": "¿Cuántas veces a la semana haces una búsqueda tipo “cómo se llama eso que…”?"
+    },
+
+    {
+      "id": "VD-091",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que tengas el móvil en la mano ahora?"
+    },
+    {
+      "id": "VD-092",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan fan eres de las actualizaciones automáticas?"
+    },
+    {
+      "id": "VD-093",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que hayas cambiado de móvil en los últimos 2 años?"
+    },
+    {
+      "id": "VD-094",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que tengas una tablet que casi no usas?"
+    },
+    {
+      "id": "VD-095",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que tengas un “cajón de cables”?"
+    },
+    {
+      "id": "VD-096",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que tengas más de 1 cargador en la cama?"
+    },
+    {
+      "id": "VD-097",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que uses auriculares a diario?"
+    },
+    {
+      "id": "VD-098",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que tengas copias de seguridad activadas?"
+    },
+    {
+      "id": "VD-099",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que te acuerdes de tu PIN sin pensarlo?"
+    },
+    {
+      "id": "VD-100",
+      "scale0to100": true,
+      "text": "Del 0 al 100, ¿qué tan probable es que hayas dicho “mi móvil está lento” este mes?"
+    }
+  ]
+}
