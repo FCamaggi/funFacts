@@ -150,8 +150,8 @@ Los logs aparecen en la terminal donde corriste `npm run dev`:
 # Mac: brew install mongosh
 # Linux: sudo apt install mongosh
 
-# Conectar a tu cluster
-mongosh "mongodb+srv://fcamaggi_db_user:7OssfbMAXD2yrZfU@funfactscluster.n3yucr5.mongodb.net/funfacts"
+# Conectar a tu cluster (usa las credenciales de tu .env)
+mongosh "mongodb+srv://<username>:<password>@funfactscluster.n3yucr5.mongodb.net/funfacts"
 
 # Ver todas las partidas
 db.gamestates.find().pretty()
