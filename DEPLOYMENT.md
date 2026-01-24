@@ -48,7 +48,7 @@
    mongodb+srv://funfacts-user:<password>@funfacts-cluster.xxxxx.mongodb.net/?retryWrites=true&w=majority
    ```
 5. **Importante**: Reemplaza `<password>` con la contraseña de tu usuario
-6. Agrega el nombre de la base de datos después de `.net/`: 
+6. Agrega el nombre de la base de datos después de `.net/`:
    ```
    mongodb+srv://funfacts-user:tu_password@funfacts-cluster.xxxxx.mongodb.net/funfacts?retryWrites=true&w=majority
    ```
@@ -87,11 +87,11 @@
    - Click en "Add Environment Variable"
    - Agrega estas variables:
 
-   | Key | Value |
-   |-----|-------|
-   | `NODE_ENV` | `production` |
-   | `PORT` | `3001` |
-   | `MONGODB_URI` | Tu connection string de MongoDB Atlas |
+   | Key           | Value                                                      |
+   | ------------- | ---------------------------------------------------------- |
+   | `NODE_ENV`    | `production`                                               |
+   | `PORT`        | `3001`                                                     |
+   | `MONGODB_URI` | Tu connection string de MongoDB Atlas                      |
    | `CORS_ORIGIN` | `https://tu-sitio.netlify.app` (lo configuraremos después) |
 
 5. **Plan**: Selecciona "Free"
@@ -110,6 +110,7 @@
 - Deberías ver: `{"status":"ok","timestamp":"..."}`
 
 ⚠️ **Nota importante sobre el plan gratuito de Render**:
+
 - Tu backend se "dormirá" después de 15 minutos de inactividad
 - La primera petición tardará ~30 segundos en despertar
 - Considera usar un servicio de "keep-alive" o actualizar a un plan de pago
@@ -153,13 +154,14 @@ En la configuración del sitio:
 - **Publish directory**: `frontend/dist`
 
 **Environment Variables**:
+
 - Click en "Show advanced" → "New variable"
 - Agrega:
 
-| Key | Value |
-|-----|-------|
+| Key            | Value                             |
+| -------------- | --------------------------------- |
 | `VITE_API_URL` | `https://tu-backend.onrender.com` |
-| `VITE_WS_URL` | `https://tu-backend.onrender.com` |
+| `VITE_WS_URL`  | `https://tu-backend.onrender.com` |
 
 ### 3.5 Desplegar
 
@@ -202,18 +204,22 @@ Ahora que tienes la URL de Netlify, actualiza el backend:
 ### Problemas Comunes
 
 **"Lobby not found"**:
+
 - El backend puede estar "dormido" (plan gratuito de Render)
 - Espera 30 segundos y vuelve a intentar
 
 **Error de CORS**:
+
 - Verifica que `CORS_ORIGIN` en Render tenga la URL correcta de Netlify
 - Asegúrate de que no haya barra final ni espacios
 
 **WebSocket no conecta**:
+
 - Verifica las variables `VITE_WS_URL` en Netlify
 - Asegúrate de usar `https://` (no `http://`)
 
 **"Reconectando..." infinito**:
+
 - El backend probablemente está caído
 - Verifica los logs en Render
 
@@ -244,16 +250,19 @@ Ahora que tienes la URL de Netlify, actualiza el backend:
 ## 💰 Límites del Plan Gratuito
 
 ### Render (Backend)
+
 - ✅ 750 horas/mes (suficiente)
 - ⚠️ Se duerme después de 15 min sin uso
 - ✅ 100GB de ancho de banda/mes
 
 ### Netlify (Frontend)
+
 - ✅ 100GB de ancho de banda/mes
 - ✅ 300 minutos de build/mes
 - ✅ Sin límite de despliegues
 
 ### MongoDB Atlas
+
 - ✅ 512MB de almacenamiento
 - ✅ Conexiones compartidas
 - ✅ Backups diarios (con limitaciones)
@@ -276,6 +285,7 @@ Si quieres llevar esto a producción real:
 ## 📞 Soporte
 
 Si tienes problemas:
+
 1. Revisa los logs en Render y Netlify
 2. Verifica las variables de entorno
 3. Asegúrate de que MongoDB esté accesible

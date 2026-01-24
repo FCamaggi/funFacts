@@ -1,6 +1,7 @@
 .game {
   width: 100%;
   max-width: 800px;
+  margin: 0 auto;
 }
 
 .game-header {
@@ -42,6 +43,22 @@
   max-width: 500px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
   position: relative;
+}
+
+.skip-question-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.skip-question-container .btn {
+  font-size: 14px;
+  opacity: 0.8;
+  transition: all 0.2s;
+}
+
+.skip-question-container .btn:hover {
+  opacity: 1;
 }
 
 .card-badge {
@@ -323,7 +340,11 @@
 .finished-section h1 {
   font-size: 48px;
   margin-bottom: 30px;
-  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--secondary-color)
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -402,23 +423,23 @@
   .game-content {
     padding: 24px 16px;
   }
-  
+
   .card-text {
     font-size: 20px;
   }
-  
+
   .players-status {
     grid-template-columns: 1fr;
   }
-  
+
   .finished-section h1 {
     font-size: 36px;
   }
-  
+
   .final-score h2 {
     font-size: 42px;
   }
-  
+
   .rating {
     font-size: 24px;
   }

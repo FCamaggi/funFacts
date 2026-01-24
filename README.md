@@ -13,12 +13,14 @@ Versión digital del juego de mesa "Fun Facts". Juego cooperativo de fiesta para
 ## 🏗️ Arquitectura
 
 ### Frontend
+
 - **React + Vite**: Interfaz de usuario moderna y rápida
 - **Socket.io-client**: Comunicación en tiempo real
 - **LocalStorage**: Persistencia de sesión del jugador
 - **Despliegue**: Netlify
 
 ### Backend
+
 - **Node.js + Express**: API REST y servidor WebSocket
 - **Socket.io**: Gestión de conexiones en tiempo real
 - **MongoDB**: Base de datos para persistencia de partidas
@@ -27,6 +29,7 @@ Versión digital del juego de mesa "Fun Facts". Juego cooperativo de fiesta para
 ## 🚀 Instalación y Desarrollo
 
 ### Prerrequisitos
+
 - Node.js 18+
 - MongoDB (local o MongoDB Atlas)
 
@@ -41,6 +44,7 @@ npm run dev
 ```
 
 Variables de entorno necesarias:
+
 ```env
 PORT=3001
 MONGODB_URI=mongodb://localhost:27017/funfacts
@@ -59,6 +63,7 @@ npm run dev
 ```
 
 Variables de entorno:
+
 ```env
 VITE_API_URL=http://localhost:3001
 VITE_WS_URL=http://localhost:3001
@@ -111,12 +116,14 @@ VITE_WS_URL=http://localhost:3001
 ## 🔧 Características Técnicas
 
 ### Persistencia y Reconexión
+
 - **LocalStorage**: Guarda ID de jugador, nombre y código de lobby
 - **Reconexión automática**: Socket.io reintenta conectar automáticamente
 - **Restauración de sesión**: Al recargar la página, recupera la partida activa
 - **Detección de desconexión**: Marca jugadores como desconectados sin eliminarlos
 
 ### Gestión de Lobbies
+
 - **Códigos únicos**: Genera códigos de 6 caracteres únicos
 - **Limpieza automática**: MongoDB TTL elimina partidas antiguas (24h)
 - **Estados**: waiting, answering, placing, revealing, finished
@@ -125,6 +132,7 @@ VITE_WS_URL=http://localhost:3001
 ### WebSocket Events
 
 **Cliente → Servidor**:
+
 - `join-lobby`: Unirse a una sala
 - `start-game`: Iniciar partida
 - `submit-answer`: Enviar respuesta
@@ -133,6 +141,7 @@ VITE_WS_URL=http://localhost:3001
 - `next-round`: Pasar a siguiente ronda
 
 **Servidor → Cliente**:
+
 - `joined-lobby`: Confirmación de unión
 - `game-update`: Actualización del estado
 - `error`: Mensaje de error
@@ -171,7 +180,9 @@ funFacts/
 ## 🎨 Personalización
 
 ### Colores
+
 Los colores de los jugadores se definen en `backend/utils/helpers.js`:
+
 ```javascript
 export const PLAYER_COLORS = [
   '#FF6B6B', // Rojo
@@ -181,13 +192,17 @@ export const PLAYER_COLORS = [
 ```
 
 ### Número de Rondas
+
 Cambia en `backend/models/GameState.js`:
+
 ```javascript
 maxRounds: { type: Number, default: 8 }
 ```
 
 ### Agregar Cartas
+
 Crea nuevos archivos JSON en la carpeta `cards/` siguiendo el formato:
+
 ```json
 {
   "categoryId": "tu_categoria",
@@ -205,14 +220,17 @@ Crea nuevos archivos JSON en la carpeta `cards/` siguiendo el formato:
 ## 🐛 Troubleshooting
 
 ### Error de CORS
+
 - Verifica que `CORS_ORIGIN` en el backend coincida con tu URL de frontend
 - Asegúrate de incluir el protocolo (https://)
 
 ### WebSocket no conecta
+
 - Verifica que ambas URLs (API y WS) sean correctas
 - Revisa que Render permita conexiones WebSocket (debe usar WS/WSS)
 
 ### Sesión no persiste
+
 - Verifica que el navegador permita LocalStorage
 - Comprueba que las cookies no estén bloqueadas
 

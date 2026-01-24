@@ -190,6 +190,7 @@ git push -u origin main
 ## Escenario 9: Testing Rápido de Funcionalidades
 
 ### Test 1: Crear y Unirse a Lobby
+
 ```bash
 # 1. Abre http://localhost:5173
 # 2. Crear Nueva Sala → Nombre: "Jugador1"
@@ -201,6 +202,7 @@ git push -u origin main
 ```
 
 ### Test 2: Juego Completo
+
 ```bash
 # Con 3 jugadores en diferentes pestañas:
 # 1. Iniciar Juego
@@ -214,6 +216,7 @@ git push -u origin main
 ```
 
 ### Test 3: Reconexión
+
 ```bash
 # 1. Inicia juego con 3 jugadores
 # 2. En fase "Responder", cierra pestaña de un jugador
@@ -225,6 +228,7 @@ git push -u origin main
 ## Escenario 10: Monitoreo en Producción
 
 ### Ver logs de Render
+
 ```bash
 # 1. Ve a https://dashboard.render.com
 # 2. Selecciona tu servicio
@@ -233,6 +237,7 @@ git push -u origin main
 ```
 
 ### Ver logs de Netlify
+
 ```bash
 # 1. Ve a https://app.netlify.com
 # 2. Selecciona tu sitio
@@ -241,6 +246,7 @@ git push -u origin main
 ```
 
 ### Verificar MongoDB Atlas
+
 ```bash
 # 1. Ve a https://cloud.mongodb.com
 # 2. Tu cluster → "Metrics"
@@ -288,6 +294,7 @@ done
 ## Consejos Útiles
 
 ### Desarrollo más Rápido
+
 ```bash
 # Instalar extensión de VS Code para reload automático
 # Thunder Client para probar API
@@ -295,18 +302,20 @@ done
 ```
 
 ### Debugging del Frontend
+
 ```javascript
 // En la consola del navegador:
-localStorage.getItem('funfacts_player') // Ver sesión guardada
-localStorage.removeItem('funfacts_player') // Limpiar sesión
+localStorage.getItem('funfacts_player'); // Ver sesión guardada
+localStorage.removeItem('funfacts_player'); // Limpiar sesión
 ```
 
 ### Debugging del Backend
+
 ```javascript
 // Agregar en server.js para debug:
 io.on('connection', (socket) => {
   console.log('🔌 Client connected:', socket.id);
-  
+
   socket.onAny((event, ...args) => {
     console.log('📨 Event:', event, 'Args:', args);
   });

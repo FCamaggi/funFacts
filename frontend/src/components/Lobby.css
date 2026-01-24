@@ -144,16 +144,16 @@
   .lobby-container {
     padding: 30px 20px;
   }
-  
+
   .lobby-code {
     font-size: 28px;
     padding: 16px 32px;
   }
-  
+
   .lobby-actions {
     flex-direction: column-reverse;
   }
-  
+
   .lobby-actions .btn {
     width: 100%;
   }

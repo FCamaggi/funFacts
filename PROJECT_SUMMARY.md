@@ -133,6 +133,7 @@ Abre: http://localhost:5173
 ## 🔑 Características Clave de Persistencia
 
 ### 1. **Reconexión Automática**
+
 ```javascript
 // Al recargar la página, recupera tu sesión
 localStorage: {
@@ -144,20 +145,22 @@ localStorage: {
 ```
 
 ### 2. **Socket.io Reconnection**
+
 ```javascript
 socket.io({
   reconnection: true,
   reconnectionDelay: 1000,
-  reconnectionAttempts: 10
-})
+  reconnectionAttempts: 10,
+});
 ```
 
 ### 3. **MongoDB TTL**
+
 ```javascript
 // Las partidas se eliminan automáticamente después de 24h
-lastActivity: { 
-  type: Date, 
-  expireAfterSeconds: 86400 
+lastActivity: {
+  type: Date,
+  expireAfterSeconds: 86400
 }
 ```
 
@@ -179,22 +182,26 @@ lastActivity: {
 ## 🛠️ Stack Tecnológico
 
 ### Frontend
+
 - **React 18** - UI Library
 - **Vite** - Build tool ultra rápido
 - **Socket.io-client** - WebSockets
 - **CSS Modules** - Estilos
 
 ### Backend
+
 - **Node.js + Express** - Servidor
 - **Socket.io** - WebSockets real-time
 - **Mongoose** - ODM para MongoDB
 - **nanoid** - Generador de códigos únicos
 
 ### Base de Datos
+
 - **MongoDB** - NoSQL document database
 - **TTL Indexes** - Auto-limpieza de datos viejos
 
 ### Deploy
+
 - **Netlify** - Frontend (CDN global)
 - **Render** - Backend (Contenedor Node.js)
 - **MongoDB Atlas** - Base de datos en la nube
@@ -226,11 +233,11 @@ npm run install:all      # Instala backend + frontend
 
 ## 📈 Límites del Plan Gratuito
 
-| Servicio | Límite Gratuito | Suficiente para |
-|----------|-----------------|-----------------|
-| **Render** | 750h/mes, se duerme tras 15min | Desarrollo y pruebas |
-| **Netlify** | 100GB/mes, builds ilimitados | Miles de usuarios |
-| **MongoDB Atlas** | 512MB storage | Miles de partidas |
+| Servicio          | Límite Gratuito                | Suficiente para      |
+| ----------------- | ------------------------------ | -------------------- |
+| **Render**        | 750h/mes, se duerme tras 15min | Desarrollo y pruebas |
+| **Netlify**       | 100GB/mes, builds ilimitados   | Miles de usuarios    |
+| **MongoDB Atlas** | 512MB storage                  | Miles de partidas    |
 
 ## 🎯 Estado del Proyecto
 
@@ -250,6 +257,7 @@ npm run install:all      # Instala backend + frontend
 ## 🎉 ¡Listo para Jugar!
 
 Todo el código está completo y funcional. Solo necesitas:
+
 1. MongoDB (Atlas o local)
 2. Ejecutar `npm run dev`
 3. Abrir http://localhost:5173

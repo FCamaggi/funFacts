@@ -29,7 +29,7 @@ cp .env.example .env
 # El .env por defecto ya apunta a MongoDB local
 cd ..
 
-# 5. Configurar Frontend  
+# 5. Configurar Frontend
 cd frontend
 cp .env.example .env
 # El .env por defecto ya apunta a localhost
@@ -89,18 +89,21 @@ npm run dev
 ## 🔧 Comandos Disponibles
 
 ### Raíz del proyecto
+
 ```bash
 npm run install:all    # Instala dependencias de backend y frontend
 npm run dev            # Inicia backend y frontend simultáneamente
 ```
 
 ### Backend (en /backend)
+
 ```bash
 npm run dev     # Inicia servidor con nodemon (auto-reload)
 npm start       # Inicia servidor en producción
 ```
 
 ### Frontend (en /frontend)
+
 ```bash
 npm run dev     # Inicia servidor de desarrollo
 npm run build   # Construye para producción
@@ -110,6 +113,7 @@ npm run preview # Preview del build de producción
 ## 🐛 Solución de Problemas
 
 ### Error: "Cannot connect to MongoDB"
+
 ```bash
 # Si usas MongoDB local:
 # macOS
@@ -128,6 +132,7 @@ net start MongoDB
 ```
 
 ### Error: "Port 3001 already in use"
+
 ```bash
 # Busca y mata el proceso que usa el puerto
 # macOS/Linux
@@ -138,6 +143,7 @@ PORT=3002
 ```
 
 ### Error: "Port 5173 already in use"
+
 ```bash
 # Busca y mata el proceso
 # macOS/Linux
@@ -147,28 +153,32 @@ lsof -ti:5173 | xargs kill -9
 ```
 
 ### Frontend no conecta con Backend
+
 1. Verifica que el backend esté corriendo: http://localhost:3001/health
 2. Revisa `frontend/.env` que tenga las URLs correctas
 3. Abre la consola del navegador (F12) para ver errores
 
 ### "Lobby not found"
+
 - El backend puede estar recién iniciando, espera 2-3 segundos
 - Verifica que MongoDB esté conectado (mira los logs del backend)
 
 ## 📱 Probar en Móvil (Misma Red WiFi)
 
 1. Obtén tu IP local:
+
    ```bash
    # macOS/Linux
    ifconfig | grep inet
    # Busca algo como: 192.168.1.XXX
-   
+
    # Windows
    ipconfig
    # Busca IPv4 Address
    ```
 
 2. Actualiza `frontend/.env`:
+
    ```env
    VITE_API_URL=http://TU_IP:3001
    VITE_WS_URL=http://TU_IP:3001
@@ -187,6 +197,7 @@ lsof -ti:5173 | xargs kill -9
 ## 🎮 ¡A Jugar!
 
 Una vez que todo esté funcionando:
+
 1. Crea una sala
 2. Comparte el código con 2+ amigos
 3. Inicien el juego

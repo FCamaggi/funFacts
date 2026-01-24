@@ -61,21 +61,25 @@ Después de desplegar el frontend:
 ## Solución de Problemas:
 
 ### Error: "Failed to fetch" o "Network error"
+
 - Verifica que VITE_API_URL esté correcto
 - Asegúrate de usar `https://` (no `http://`)
 - Verifica que el backend esté funcionando: `https://tu-backend.onrender.com/health`
 
 ### Error: "Lobby not found" inmediatamente
+
 - El backend puede estar "dormido" (plan gratuito)
 - Espera 30 segundos y vuelve a intentar
 - Ve a los logs de Render para ver qué está pasando
 
 ### WebSocket no conecta
+
 - Verifica VITE_WS_URL
 - Asegúrate de que CORS_ORIGIN esté configurado en el backend
 - Revisa la consola del navegador para más detalles
 
 ### La página se ve en blanco
+
 - Verifica que el build haya terminado exitosamente
 - Ve a Netlify → Deploys → Click en el último deploy → Ver logs
 - Busca errores de build

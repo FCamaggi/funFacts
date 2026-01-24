@@ -25,9 +25,17 @@ function App() {
 
   const attemptReconnect = async (savedPlayer) => {
     try {
-      // Verificar que el lobby siga existiendo
-      await api.checkLobby(savedPlayer.lobbyCode);
+      // Verificar que el lobby siga existiendo y esté activo
+      const lobbyInfo = await api.checkLobby(savedPlayer.lobbyCode);
       
+      // Si el lobby está terminado, no reconectar
+      if (lobbyInfo.status === 'finished') {
+        console.log('Game already finished, clearing storage');
+        storage.clearPlayer();
+        setReconnecting(false);
+        return;
+      }
+
       // Reconectar
       const sock = initSocket();
       setSocket(sock);
@@ -35,12 +43,14 @@ function App() {
       setPlayerName(savedPlayer.playerName);
       setLobbyCode(savedPlayer.lobbyCode);
       
+      setupSocketListeners(sock);
+
       sock.emit('join-lobby', {
         lobbyCode: savedPlayer.lobbyCode,
         playerName: savedPlayer.playerName,
-        playerId: savedPlayer.playerId
+        playerId: savedPlayer.playerId,
       });
-      
+
       setScreen('lobby');
       setReconnecting(false);
     } catch (error) {
@@ -54,21 +64,21 @@ function App() {
     try {
       const { lobbyCode: code } = await api.createLobby();
       const pid = generatePlayerId();
-      
+
       setPlayerName(name);
       setLobbyCode(code);
       setPlayerId(pid);
-      
+
       const sock = initSocket();
       setSocket(sock);
       setupSocketListeners(sock);
-      
+
       sock.emit('join-lobby', {
         lobbyCode: code,
         playerName: name,
-        playerId: pid
+        playerId: pid,
       });
-      
+
       storage.savePlayer(pid, name, code);
       setScreen('lobby');
     } catch (error) {
@@ -80,22 +90,22 @@ function App() {
   const handleJoinLobby = async (code, name) => {
     try {
       await api.checkLobby(code);
-      
+
       const pid = generatePlayerId();
       setPlayerName(name);
       setLobbyCode(code);
       setPlayerId(pid);
-      
+
       const sock = initSocket();
       setSocket(sock);
       setupSocketListeners(sock);
-      
+
       sock.emit('join-lobby', {
         lobbyCode: code,
         playerName: name,
-        playerId: pid
+        playerId: pid,
       });
-      
+
       storage.savePlayer(pid, name, code);
       setScreen('lobby');
     } catch (error) {
@@ -117,6 +127,10 @@ function App() {
       if (data.phase !== 'waiting' && screen !== 'game') {
         setScreen('game');
       }
+      // Limpiar storage si el juego terminó
+      if (data.status === 'finished' && data.phase === 'finished') {
+        storage.clearPlayer();
+      }
     });
 
     sock.on('error', (data) => {
@@ -135,7 +149,7 @@ function App() {
         sock.emit('join-lobby', {
           lobbyCode,
           playerName,
-          playerId
+          playerId,
         });
       }
     });
@@ -175,14 +189,11 @@ function App() {
   return (
     <div className="app">
       {screen === 'home' && (
-        <Home 
-          onCreateLobby={handleCreateLobby}
-          onJoinLobby={handleJoinLobby}
-        />
+        <Home onCreateLobby={handleCreateLobby} onJoinLobby={handleJoinLobby} />
       )}
-      
+
       {screen === 'lobby' && (
-        <Lobby 
+        <Lobby
           lobbyCode={lobbyCode}
           gameState={gameState}
           playerId={playerId}
@@ -190,9 +201,9 @@ function App() {
           onLeave={handleLeaveGame}
         />
       )}
-      
+
       {screen === 'game' && (
-        <Game 
+        <Game
           socket={socket}
           lobbyCode={lobbyCode}
           gameState={gameState}

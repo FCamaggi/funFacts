@@ -48,13 +48,15 @@ Cuando despliegues en Render, necesitas configurar estas variables:
 ## Verificar que Funciona:
 
 Una vez desplegado, visita:
+
 ```
 https://tu-backend.onrender.com/health
 ```
 
 Deberías ver:
+
 ```json
-{"status":"ok","timestamp":"2026-01-21T..."}
+{ "status": "ok", "timestamp": "2026-01-21T..." }
 ```
 
 ## ⚠️ Notas Importantes:
@@ -67,14 +69,17 @@ Deberías ver:
 ## Solución de Problemas:
 
 ### Error: "Application failed to respond"
+
 - Verifica que el Puerto esté configurado correctamente
 - Revisa los logs en Render Dashboard → Tu servicio → Logs
 
 ### Error: "MongoServerError"
+
 - Verifica que MONGODB_URI esté correcto
 - Asegúrate de haber reemplazado `<password>` con tu contraseña real
 - Verifica que 0.0.0.0/0 esté en Network Access de MongoDB Atlas
 
 ### Error de CORS
+
 - Actualiza CORS_ORIGIN con la URL exacta de tu frontend
 - No incluyas barra final: ✅ `https://sitio.netlify.app` ❌ `https://sitio.netlify.app/`
