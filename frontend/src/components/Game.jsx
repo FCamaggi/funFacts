@@ -5,6 +5,7 @@ import Modal from './Modal';
 function Game({ socket, lobbyCode, gameState, playerId, onLeave }) {
   const [answer, setAnswer] = useState('');
   const [selectedPosition, setSelectedPosition] = useState(null);
+  const [previewPosition, setPreviewPosition] = useState(null);
   const [revealedAnswers, setRevealedAnswers] = useState([]);
   const [modal, setModal] = useState({
     isOpen: false,
@@ -13,6 +14,20 @@ function Game({ socket, lobbyCode, gameState, playerId, onLeave }) {
     type: 'info',
     actions: null,
   });
+
+  // Limpiar preview cuando cambia la fase o cuando el jugador ya colocó
+  useEffect(() => {
+    if (gameState?.phase !== 'placing') {
+      setPreviewPosition(null);
+      setSelectedPosition(null);
+    } else {
+      const currentPlayer = gameState.players.find((p) => p.id === playerId);
+      if (currentPlayer?.position !== null) {
+        setPreviewPosition(null);
+        setSelectedPosition(currentPlayer.position);
+      }
+    }
+  }, [gameState, playerId]);
 
   if (!gameState) {
     return <div className="game loading">Cargando...</div>;
@@ -82,13 +97,23 @@ function Game({ socket, lobbyCode, gameState, playerId, onLeave }) {
     );
   };
 
-  const handlePlaceArrow = (position) => {
-    setSelectedPosition(position);
+  const handleSelectPosition = (position) => {
+    setPreviewPosition(position);
+  };
+
+  const handleConfirmPlacement = () => {
+    if (previewPosition === null) return;
+    
+    setSelectedPosition(previewPosition);
     socket.emit('place-arrow', {
       lobbyCode,
       playerId,
-      position,
+      position: previewPosition,
     });
+  };
+
+  const handleCancelPlacement = () => {
+    setPreviewPosition(null);
   };
 
   const handleReveal = () => {
@@ -215,6 +240,17 @@ function Game({ socket, lobbyCode, gameState, playerId, onLeave }) {
     const allPlaced = gameState.players.every((p) => p.hasPlaced);
     const iPlaced = currentPlayer?.hasPlaced;
     const canMove = isStartPlayer && gameState.canMoveStartPlayer;
+    
+    // Determinar si es el turno de este jugador
+    const currentPlayerIndex = gameState.players.findIndex((p) => p.id === playerId);
+    const isMyTurn =
+      gameState.currentPlayerTurn !== null &&
+      gameState.currentPlayerTurn !== undefined &&
+      gameState.currentPlayerTurn === currentPlayerIndex;
+    const currentTurnPlayer = 
+      gameState.currentPlayerTurn !== null && gameState.currentPlayerTurn !== undefined
+        ? gameState.players[gameState.currentPlayerTurn]
+        : null;
 
     return (
       <div className="game">
@@ -224,50 +260,111 @@ function Game({ socket, lobbyCode, gameState, playerId, onLeave }) {
           <div className="placing-section">
             <h3>Coloca tu respuesta</h3>
             <p className="instruction">
-              {!iPlaced
-                ? 'Predice dónde va tu respuesta en orden ascendente (de menor a mayor)'
-                : canMove
-                  ? '¡Eres el jugador inicial! Puedes mover tu respuesta o revelar'
-                  : 'Esperando a que todos coloquen sus respuestas...'}
+              {canMove
+                ? previewPosition !== null
+                  ? '¡Ya casi! Confirma tu posición o cancela para elegir otra'
+                  : '¡Eres el jugador inicial! Puedes ajustar tu posición o revelar las respuestas'
+                : isMyTurn
+                  ? previewPosition !== null
+                    ? '¡Perfecto! Confirma donde quieres colocar tu respuesta'
+                    : '¡Es tu turno! Predice dónde va tu respuesta en orden ascendente (menor a mayor)'
+                  : currentTurnPlayer
+                    ? `Esperando a ${currentTurnPlayer.name}...`
+                    : 'Esperando a que todos coloquen sus respuestas...'}
             </p>
 
             <div className="arrows-container">
-              {(!iPlaced || canMove) && (
-                <button
-                  className={`position-slot ${selectedPosition === 0 ? 'selected' : ''}`}
-                  onClick={() => handlePlaceArrow(0)}
-                >
-                  {selectedPosition === 0
-                    ? '⬇️ Tu respuesta'
-                    : '➕ Colocar aquí'}
-                </button>
+              {(isMyTurn || canMove) && (
+                <>
+                  {previewPosition === 0 ? (
+                    <div
+                      className="preview-arrow"
+                      style={{ borderColor: currentPlayer?.color }}
+                    >
+                      <div
+                        className="arrow-color-indicator"
+                        style={{ backgroundColor: currentPlayer?.color }}
+                      />
+                      <span className="arrow-name">{currentPlayer?.name} (TÚ)</span>
+                      <span className="arrow-icon">👤</span>
+                    </div>
+                  ) : (
+                    <button
+                      className={`position-slot ${selectedPosition === 0 ? 'placed' : ''}`}
+                      onClick={() => handleSelectPosition(0)}
+                      disabled={selectedPosition !== null}
+                    >
+                      <span className="slot-number">#1</span>
+                      {selectedPosition === 0 ? '✓ Colocado aquí' : '➕ Colocar aquí (posición 1)'}
+                    </button>
+                  )}
+                </>
               )}
 
               {sortedAnswers.map((player, index) => (
                 <div key={player.id}>
                   <div
                     className="placed-arrow"
-                    style={{ backgroundColor: player.color }}
+                    style={{ borderColor: player.color }}
                   >
+                    <div
+                      className="arrow-color-indicator"
+                      style={{ backgroundColor: player.color }}
+                    />
                     <span className="arrow-name">{player.name}</span>
-                    <span className="arrow-icon">❓</span>
+                    <span className="arrow-icon">🎯</span>
                   </div>
 
-                  {(!iPlaced || canMove) && (
-                    <button
-                      className={`position-slot ${selectedPosition === index + 1 ? 'selected' : ''}`}
-                      onClick={() => handlePlaceArrow(index + 1)}
-                    >
-                      {selectedPosition === index + 1
-                        ? '⬇️ Tu respuesta'
-                        : '➕ Colocar aquí'}
-                    </button>
+                  {(isMyTurn || canMove) && (
+                    <>
+                      {previewPosition === index + 1 ? (
+                        <div
+                          className="preview-arrow"
+                          style={{ borderColor: currentPlayer?.color }}
+                        >
+                          <div
+                            className="arrow-color-indicator"
+                            style={{ backgroundColor: currentPlayer?.color }}
+                          />
+                          <span className="arrow-name">{currentPlayer?.name} (TÚ)</span>
+                          <span className="arrow-icon">👤</span>
+                        </div>
+                      ) : (
+                        <button
+                          className={`position-slot ${selectedPosition === index + 1 ? 'placed' : ''}`}
+                          onClick={() => handleSelectPosition(index + 1)}
+                          disabled={selectedPosition !== null}
+                        >
+                          <span className="slot-number">#{index + 2}</span>
+                          {selectedPosition === index + 1
+                            ? '✓ Colocado aquí'
+                            : `➕ Colocar aquí (posición ${index + 2})`}
+                        </button>
+                      )}
+                    </>
                   )}
                 </div>
               ))}
             </div>
 
-            {canMove && (
+            {previewPosition !== null && (
+              <div className="placement-controls">
+                <button
+                  className="btn btn-ghost"
+                  onClick={handleCancelPlacement}
+                >
+                  ❌ Cancelar
+                </button>
+                <button
+                  className="btn btn-primary btn-large"
+                  onClick={handleConfirmPlacement}
+                >
+                  ✓ Confirmar Posición
+                </button>
+              </div>
+            )}
+
+            {canMove && previewPosition === null && (
               <button
                 className="btn btn-primary btn-large"
                 onClick={handleReveal}

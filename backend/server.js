@@ -240,6 +240,8 @@ io.on('connection', (socket) => {
                 const allAnswered = gameState.players.every(p => p.answer !== null);
                 if (allAnswered) {
                     gameState.phase = 'placing';
+                    // Inicializar el turno: el jugador inicial coloca primero
+                    gameState.currentPlayerTurn = gameState.startPlayerIndex;
                     await gameState.save();
                 }
 
@@ -265,34 +267,76 @@ io.on('connection', (socket) => {
                 return;
             }
 
-            const player = gameState.players.find(p => p.id === playerId);
-            if (player) {
-                player.position = position;
-                gameState.lastActivity = new Date();
+            // Encontrar el índice del jugador
+            const playerIndex = gameState.players.findIndex(p => p.id === playerId);
+            if (playerIndex === -1) return;
 
-                // Si es el jugador inicial y ya había colocado, marca que puede mover
-                const startPlayer = gameState.players[gameState.startPlayerIndex];
-                if (startPlayer && startPlayer.id === playerId && player.position !== null) {
-                    // Verificar si todos los demás han colocado
-                    const othersPlaced = gameState.players.every((p, idx) =>
-                        idx === gameState.startPlayerIndex || p.position !== null
-                    );
-                    if (othersPlaced) {
-                        gameState.canMoveStartPlayer = true;
-                    }
+            const player = gameState.players[playerIndex];
+            const isStartPlayer = playerIndex === gameState.startPlayerIndex;
+
+            // Validar turno: solo puede mover si es su turno o si es el jugador inicial ajustando
+            if (!gameState.canMoveStartPlayer) {
+                // Fase de colocación inicial - debe ser el turno del jugador
+                if (gameState.currentPlayerTurn !== playerIndex) {
+                    socket.emit('error', { message: 'No es tu turno' });
+                    return;
                 }
-
-                await gameState.save();
-
-                // Verificar si todos han colocado
-                const allPlaced = gameState.players.every(p => p.position !== null);
-                if (allPlaced && !gameState.canMoveStartPlayer) {
-                    gameState.canMoveStartPlayer = true;
-                    await gameState.save();
+            } else {
+                // Fase de ajuste - solo el jugador inicial puede mover
+                if (!isStartPlayer) {
+                    socket.emit('error', { message: 'Solo el jugador inicial puede ajustar su posición' });
+                    return;
                 }
-
-                io.to(lobbyCode).emit('game-update', formatGameState(gameState));
             }
+
+            // Si el jugador ya tenía una posición (está reposicionando), liberar esa posición
+            const oldPosition = player.position;
+            
+            // Empujar todas las flechas que están en la posición deseada o después hacia adelante
+            // (solo si hay jugadores con posiciones asignadas y no estamos en la primera colocación del jugador)
+            if (oldPosition !== null && oldPosition !== position) {
+                // Estamos moviendo una flecha existente
+                // Primero, liberar la posición antigua
+                gameState.players.forEach(p => {
+                    if (p.id !== playerId && p.position !== null && p.position > oldPosition) {
+                        p.position -= 1;
+                    }
+                });
+                // Luego, hacer espacio en la nueva posición
+                gameState.players.forEach(p => {
+                    if (p.id !== playerId && p.position !== null && p.position >= position) {
+                        p.position += 1;
+                    }
+                });
+            } else if (oldPosition === null) {
+                // Primera vez colocando esta flecha - solo hacer espacio
+                gameState.players.forEach(p => {
+                    if (p.id !== playerId && p.position !== null && p.position >= position) {
+                        p.position += 1;
+                    }
+                });
+            }
+
+            // Asignar la nueva posición al jugador
+            player.position = position;
+            gameState.lastActivity = new Date();
+
+            // Si no estamos en fase de ajuste, avanzar al siguiente jugador
+            if (!gameState.canMoveStartPlayer) {
+                // Avanzar al siguiente jugador (sentido horario)
+                gameState.currentPlayerTurn = (gameState.currentPlayerTurn + 1) % gameState.players.length;
+                
+                // Verificar si todos han colocado (incluyendo el inicial)
+                const allPlaced = gameState.players.every(p => p.position !== null);
+                if (allPlaced) {
+                    // Todos colocaron - permitir al jugador inicial ajustar
+                    gameState.canMoveStartPlayer = true;
+                    gameState.currentPlayerTurn = null; // Ya no hay turno específico
+                }
+            }
+
+            await gameState.save();
+            io.to(lobbyCode).emit('game-update', formatGameState(gameState));
 
         } catch (error) {
             console.error('Error placing arrow:', error);
@@ -397,6 +441,7 @@ io.on('connection', (socket) => {
             // Pasar al siguiente jugador inicial
             gameState.startPlayerIndex = (gameState.startPlayerIndex + 1) % gameState.players.length;
             gameState.canMoveStartPlayer = false;
+            gameState.currentPlayerTurn = null;
 
             // Verificar si el juego terminó
             if (gameState.currentRound >= gameState.maxRounds) {
@@ -457,6 +502,7 @@ function formatGameState(gameState, requestingPlayerId = null) {
         phase: gameState.phase,
         currentCard: gameState.currentCard,
         startPlayerIndex: gameState.startPlayerIndex,
+        currentPlayerTurn: gameState.currentPlayerTurn,
         canMoveStartPlayer: gameState.canMoveStartPlayer,
         roundScores: gameState.roundScores,
         status: gameState.status

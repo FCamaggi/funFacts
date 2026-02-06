@@ -26,6 +26,7 @@ const gameStateSchema = new mongoose.Schema({
     },
     usedCardIds: [String],
     startPlayerIndex: { type: Number, default: 0 },
+    currentPlayerTurn: { type: Number, default: null }, // Índice del jugador cuyo turno es para colocar
     canMoveStartPlayer: { type: Boolean, default: false },
     roundScores: [Number],
     createdAt: { type: Date, default: Date.now },
